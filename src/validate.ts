@@ -11,9 +11,7 @@ const ChecksummedAddress = z.string().refine(
       return false;
     }
   },
-  {
-    message: "Invalid checksummed Ethereum address",
-  },
+  { message: "Invalid checksummed Ethereum address" },
 );
 
 const HttpsUrl = z.string().refine(
@@ -25,9 +23,7 @@ const HttpsUrl = z.string().refine(
       return false;
     }
   },
-  {
-    message: "Invalid HTTPS URL",
-  },
+  { message: "Invalid HTTPS URL" },
 );
 
 export const Token = z.object({
@@ -44,6 +40,11 @@ async function validateJsonFiles(baseDirectory: string) {
   const chainFolders = await fs.readdir(baseDirectory);
 
   for (const chainFolder of chainFolders) {
+    // Check that the chain folder name is an integer.
+    if (!/^\d+$/.test(chainFolder)) {
+      throw new Error(`Chain folder "${chainFolder}" is not a valid integer.`);
+    }
+
     const chainFolderPath = path.join(baseDirectory, chainFolder);
     const chainFolderStats = await fs.stat(chainFolderPath);
     if (!chainFolderStats.isDirectory()) continue;
@@ -51,6 +52,18 @@ async function validateJsonFiles(baseDirectory: string) {
     const tokenFolders = await fs.readdir(chainFolderPath);
 
     for (const tokenFolder of tokenFolders) {
+      // Verify token folder is a lowercase address.
+      if (tokenFolder !== tokenFolder.toLowerCase()) {
+        throw new Error(
+          `Token folder "${tokenFolder}" is not a lowercase address.`,
+        );
+      }
+      if (!isAddress(tokenFolder, { strict: false })) {
+        throw new Error(
+          `Token folder "${tokenFolder}" is not a valid Ethereum address.`,
+        );
+      }
+
       const tokenFolderPath = path.join(chainFolderPath, tokenFolder);
       const tokenFolderStats = await fs.stat(tokenFolderPath);
       if (!tokenFolderStats.isDirectory()) continue;
@@ -65,6 +78,13 @@ async function validateJsonFiles(baseDirectory: string) {
         if (!validationResult.success) {
           throw new Error(
             `File ${infoFilePath} is invalid: ${JSON.stringify(validationResult.error.errors, null, 2)}`,
+          );
+        }
+
+        // Ensure the token folder name matches the address in the JSON.
+        if (validationResult.data.address.toLowerCase() !== tokenFolder) {
+          throw new Error(
+            `Mismatch in token folder "${tokenFolder}" and address in JSON: ${validationResult.data.address}`,
           );
         }
 
