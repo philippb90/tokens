@@ -9,7 +9,7 @@ This repository contains token information that can be used by [Oku](https://oku
   Example: `1`, `56`, `137`.
 
 - **Token Folders:**  
-  Inside each chain folder, create a folder for each token using its Ethereum address. The folder name must be a valid checksummed Ethereum address. Use https://ethsum.netlify.app/ if you are unsure how to do this.
+  Inside each chain folder, create a folder for each token using its address. The folder name must be a valid checksummed address. Use https://ethsum.netlify.app/ if you are unsure how to do this.
   Example: `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`.
 
 - **Info File:**  
