@@ -52,13 +52,7 @@ async function validateJsonFiles(baseDirectory: string) {
     const tokenFolders = await fs.readdir(chainFolderPath);
 
     for (const tokenFolder of tokenFolders) {
-      // Verify token folder is a lowercase address.
-      if (tokenFolder !== tokenFolder.toLowerCase()) {
-        throw new Error(
-          `Token folder "${tokenFolder}" is not a lowercase address.`,
-        );
-      }
-      if (!isAddress(tokenFolder, { strict: false })) {
+      if (!isAddress(tokenFolder, { strict: true })) {
         throw new Error(
           `Token folder "${tokenFolder}" is not a valid Ethereum address.`,
         );
@@ -82,7 +76,7 @@ async function validateJsonFiles(baseDirectory: string) {
         }
 
         // Ensure the token folder name matches the address in the JSON.
-        if (validationResult.data.address.toLowerCase() !== tokenFolder) {
+        if (validationResult.data.address !== tokenFolder) {
           throw new Error(
             `Mismatch in token folder "${tokenFolder}" and address in JSON: ${validationResult.data.address}`,
           );
