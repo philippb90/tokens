@@ -1,0 +1,22 @@
+{
+  "name": "oku-tokens",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "build": "yarn tsc",
+    "validate": "yarn build && yarn node dist/validate.js",
+    "prettier:check": "./node_modules/.bin/prettier --check chains/**/*.json",
+    "prettier:write": "./node_modules/.bin/prettier --cache --write chains/**/*.json"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs.promises": "^0.1.2",
+    "path": "^0.12.7",
+    "typescript": "^5.7.3",
+    "viem": "^2.22.17",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "prettier": "^3.4.2"
+  }
+}
