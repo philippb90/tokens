@@ -27,7 +27,7 @@ jobs:
           if [ -n "$(git status --porcelain tokenlist.json)" ]; then
             git add tokenlist.json
             git commit -m "chore: update tokenlist [skip ci]"
-            git push origin master
+            git push origin main
           else
             echo "No changes in tokenlist.json"
           fi
