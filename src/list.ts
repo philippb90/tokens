@@ -6,40 +6,6 @@ import sharp from "sharp";
 const GITHUB_RAW_BASE_URL =
   "https://raw.githubusercontent.com/oku-trade/tokens/main";
 
-// Initialize your R2 (S3) client.
-const s3Client = new S3({
-  forcePathStyle: true,
-  endpoint: "https://6f19dc20133dce480cc5b278c8964331.r2.cloudflarestorage.com",
-  region: "us-east-1",
-  credentials: {
-    accessKeyId: process.env.CF_KEY!,
-    secretAccessKey: process.env.CF_SECRET!,
-  },
-});
-
-// Helper to upload and process logo images.
-async function uploadLogoToR2(
-  logoPath: string,
-  chainId: number,
-  tokenAddress: string,
-): Promise<string> {
-  const imageBuffer = await fs.readFile(logoPath);
-  const processedBuffer = await sharp(imageBuffer)
-    .resize(32, 32)
-    .png()
-    .toBuffer();
-  const key = `logos/${chainId}/${tokenAddress.toLowerCase()}.png`;
-  await s3Client.putObject({
-    Bucket: "oku-cdn",
-    Key: key,
-    Body: processedBuffer,
-    ContentType: "image/png",
-    ACL: "public-read",
-  });
-  // Return the CDN URL.
-  return `https://cdn.oku.trade/${key}`;
-}
-
 interface Token {
   chainId: number;
   address: string;
@@ -63,6 +29,40 @@ interface TokenList {
   tokens: Token[];
 }
 
+// Initialize R2 (Cloudflare) S3 client.
+const s3Client = new S3({
+  forcePathStyle: true,
+  endpoint: "https://6f19dc20133dce480cc5b278c8964331.r2.cloudflarestorage.com",
+  region: "us-east-1",
+  credentials: {
+    accessKeyId: process.env.CF_KEY!,
+    secretAccessKey: process.env.CF_SECRET!,
+  },
+});
+
+// Helper to upload and process a logo image.
+async function uploadLogoToR2(
+  logoPath: string,
+  chainId: number,
+  tokenAddress: string,
+): Promise<string> {
+  const imageBuffer = await fs.readFile(logoPath);
+  const processedBuffer = await sharp(imageBuffer)
+    .resize(32, 32)
+    .png()
+    .toBuffer();
+  const key = `logos/${chainId}/${tokenAddress.toLowerCase()}.png`;
+  await s3Client.putObject({
+    Bucket: "oku-cdn",
+    Key: key,
+    Body: processedBuffer,
+    ContentType: "image/png",
+    ACL: "public-read",
+  });
+  // Return the CDN URL.
+  return `https://cdn.oku.trade/${key}`;
+}
+
 async function generateTokenList(baseDirectory: string, outputFile: string) {
   const tokens: Token[] = [];
   const chainFolders = await fs.readdir(baseDirectory);
@@ -76,20 +76,20 @@ async function generateTokenList(baseDirectory: string, outputFile: string) {
       const infoFilePath = path.join(tokenFolderPath, "info.json");
       try {
         const fileContent = await fs.readFile(infoFilePath, "utf-8");
-        const tokenData = JSON.parse(fileContent);
+        const tokenData: Token = JSON.parse(fileContent);
         tokenData.chainId = chainId;
 
-        // Check if logo.png exists; if so, upload it to R2.
         const logoFilePath = path.join(tokenFolderPath, "logo.png");
         try {
           await fs.access(logoFilePath);
+          // If logo.png exists, upload to R2 and set logoURI to the CDN URL.
           tokenData.logoURI = await uploadLogoToR2(
             logoFilePath,
             chainId,
             tokenFolder,
           );
         } catch {
-          // No logo.png found; optionally fallback to GitHub raw URL.
+          // Fallback: use the GitHub raw URL if no logo.png is found.
           tokenData.logoURI = `${GITHUB_RAW_BASE_URL}/chains/${chainFolder}/${tokenFolder}/logo.png`;
         }
         tokens.push(tokenData);
@@ -99,7 +99,6 @@ async function generateTokenList(baseDirectory: string, outputFile: string) {
     }
   }
 
-  // (Rest of your versioning and file writing logic remains unchanged.)
   let oldTokenList: TokenList | null = null;
   try {
     const existing = await fs.readFile(outputFile, "utf-8");
@@ -115,16 +114,63 @@ async function generateTokenList(baseDirectory: string, outputFile: string) {
     oldTokens = oldTokenList.tokens || [];
   }
 
-  // ... (your token versioning and updating logic)
+  // Compute version increments based on changes.
+  const oldTokenMap = new Map<string, Token>();
+  for (const t of oldTokens) {
+    const key = `${t.chainId}-${t.address.toLowerCase()}`;
+    oldTokenMap.set(key, t);
+  }
+  const oldChainIds = new Set(oldTokens.map((t) => t.chainId));
+  let newChainCount = 0;
+  let newTokenCount = 0;
+  let updatedTokenCount = 0;
+  const newChainIdsCounted = new Set<number>();
+
+  for (const token of tokens) {
+    const key = `${token.chainId}-${token.address.toLowerCase()}`;
+    if (!oldTokenMap.has(key)) {
+      if (!oldChainIds.has(token.chainId)) {
+        if (!newChainIdsCounted.has(token.chainId)) {
+          newChainCount++;
+          newChainIdsCounted.add(token.chainId);
+        }
+      } else {
+        newTokenCount++;
+      }
+    } else {
+      const oldToken = oldTokenMap.get(key);
+      const fields: (keyof Token)[] = [
+        "name",
+        "symbol",
+        "decimals",
+        "website",
+        "description",
+        "explorer",
+        "logoURI",
+      ];
+      let changed = false;
+      for (const field of fields) {
+        if ((oldToken as any)[field] !== (token as any)[field]) {
+          changed = true;
+          break;
+        }
+      }
+      if (changed) {
+        updatedTokenCount++;
+      }
+    }
+  }
+
+  const newVersion = {
+    major: oldVersion.major + newChainCount,
+    minor: oldVersion.minor + newTokenCount,
+    patch: oldVersion.patch + updatedTokenCount,
+  };
 
   const tokenList: TokenList = {
     name: "Oku Token List",
     timestamp: new Date().toISOString(),
-    version: {
-      major: oldVersion.major,
-      minor: oldVersion.minor,
-      patch: oldVersion.patch,
-    },
+    version: newVersion,
     tokens,
   };
 
