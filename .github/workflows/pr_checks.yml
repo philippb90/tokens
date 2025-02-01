@@ -13,20 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Setup environment
+        run: make setup
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 23
-          cache: "yarn"
+      - name: Lint code
+        run: make lint
 
-      - name: Install dependencies
-        run: yarn install
-
-      - name: Run Prettier check
-        run: yarn prettier:check
-
-      - name: Run validator
-        run: yarn validate
+      - name: Validate code
+        run: make validate
