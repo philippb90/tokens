@@ -1,4 +1,6 @@
-name: Validate PR
+name: Generate Tokenlist
+permissions:
+  contents: write
 
 on:
   push:
