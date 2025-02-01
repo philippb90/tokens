@@ -46,21 +46,28 @@ async function uploadLogoToR2(
   chainId: number,
   tokenAddress: string,
 ): Promise<string> {
+  console.log(`Uploading logo for ${chainId}/${tokenAddress}`);
   const imageBuffer = await fs.readFile(logoPath);
   const processedBuffer = await sharp(imageBuffer)
     .resize(32, 32)
     .png()
     .toBuffer();
   const key = `logos/${chainId}/${tokenAddress.toLowerCase()}.png`;
-  await s3Client.putObject({
-    Bucket: "oku-cdn",
-    Key: key,
-    Body: processedBuffer,
-    ContentType: "image/png",
-    ACL: "public-read",
-  });
-  // Return the CDN URL.
-  return `https://cdn.oku.trade/${key}`;
+  try {
+    await s3Client.putObject({
+      Bucket: "oku-cdn",
+      Key: key,
+      Body: processedBuffer,
+      ContentType: "image/png",
+      ACL: "public-read",
+    });
+    console.log(`Uploaded logo for ${chainId}/${tokenAddress}`);
+    // Return the CDN URL.
+    return `https://cdn.oku.trade/${key}`;
+  } catch (e) {
+    console.error(e);
+    return "";
+  }
 }
 
 async function generateTokenList(baseDirectory: string, outputFile: string) {
@@ -82,7 +89,6 @@ async function generateTokenList(baseDirectory: string, outputFile: string) {
         const logoFilePath = path.join(tokenFolderPath, "logo.png");
         try {
           await fs.access(logoFilePath);
-          // If logo.png exists, upload to R2 and set logoURI to the CDN URL.
           tokenData.logoURI = await uploadLogoToR2(
             logoFilePath,
             chainId,

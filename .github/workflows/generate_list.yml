@@ -21,7 +21,7 @@ jobs:
 
       - name: Update tokenlist.json
         env:
-          CF_TOKEN: ${{ secrets.CF_TOKEN }}
+          CF_SECRET: ${{ secrets.CF_SECRET }}
           CF_KEY: ${{ secrets.CF_KEY }}
         run: make list
 
