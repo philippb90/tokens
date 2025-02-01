@@ -11,5 +11,5 @@ lint:
 validate:
 	yarn validate
 
-update-list:
+list:
 	yarn list
