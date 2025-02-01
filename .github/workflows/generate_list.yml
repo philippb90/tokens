@@ -20,7 +20,7 @@ jobs:
         run: make setup
 
       - name: Update tokenlist.json
-        with:
+        env:
           CF_TOKEN: ${{ secrets.CF_TOKEN }}
           CF_KEY: ${{ secrets.CF_KEY }}
         run: make list
