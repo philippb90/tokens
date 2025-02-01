@@ -1,8 +1,8 @@
-import { z } from "zod";
 import { isAddress } from "viem";
 import * as fs from "fs/promises";
 import * as path from "path";
 import { MAINNET_CHAINS as chains } from "@gfxlabs/oku-chains";
+import { Token } from "./types";
 
 const SUPPORTED_CHAINS: number[] = chains.map(
   (chain: { id: number }) => chain.id,
@@ -11,39 +11,6 @@ const SUPPORTED_CHAINS: number[] = chains.map(
 function isChainSupported(chainId: number): boolean {
   return SUPPORTED_CHAINS.includes(chainId);
 }
-
-const ChecksummedAddress = z.string().refine(
-  (address) => {
-    try {
-      return isAddress(address, { strict: true });
-    } catch {
-      return false;
-    }
-  },
-  { message: "Invalid checksummed Ethereum address" },
-);
-
-const HttpsUrl = z.string().refine(
-  (url) => {
-    try {
-      const parsedUrl = new URL(url);
-      return parsedUrl.protocol === "https:";
-    } catch {
-      return false;
-    }
-  },
-  { message: "Invalid HTTPS URL" },
-);
-
-export const Token = z.object({
-  name: z.string(),
-  symbol: z.string(),
-  decimals: z.number().int(),
-  website: HttpsUrl.optional(),
-  description: z.string().optional(),
-  explorer: HttpsUrl.optional(),
-  address: ChecksummedAddress,
-});
 
 async function validateJsonFiles(baseDirectory: string) {
   const chainFolders = await fs.readdir(baseDirectory);
@@ -105,7 +72,7 @@ async function validateJsonFiles(baseDirectory: string) {
   }
 }
 
-const chainsDirectory = "./chains";
+const chainsDirectory = "./chains/evm";
 validateJsonFiles(chainsDirectory).catch((error) => {
   console.error(error);
   process.exit(1);

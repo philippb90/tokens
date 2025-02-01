@@ -140,7 +140,7 @@ async function generateTokenList(baseDirectory: string, outputFile: string) {
 }
 
 if (require.main === module) {
-  const chainsDirectory = "./chains";
+  const chainsDirectory = "./chains/evm";
   const outputFile = "./tokenlist.json";
   generateTokenList(chainsDirectory, outputFile).catch((error) => {
     console.error(error);
