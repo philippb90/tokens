@@ -2,6 +2,15 @@ import { z } from "zod";
 import { isAddress } from "viem";
 import * as fs from "fs/promises";
 import * as path from "path";
+import { MAINNET_CHAINS as chains } from "@gfxlabs/oku-chains";
+
+const SUPPORTED_CHAINS: number[] = chains.map(
+  (chain: { id: number }) => chain.id,
+);
+
+function isChainSupported(chainId: number): boolean {
+  return SUPPORTED_CHAINS.includes(chainId);
+}
 
 const ChecksummedAddress = z.string().refine(
   (address) => {
@@ -43,6 +52,10 @@ async function validateJsonFiles(baseDirectory: string) {
     // Check that the chain folder name is an integer.
     if (!/^\d+$/.test(chainFolder)) {
       throw new Error(`Chain folder "${chainFolder}" is not a valid integer.`);
+    }
+
+    if (!isChainSupported(Number(chainFolder))) {
+      throw new Error(`Chain "${chainFolder}" is not supported.`);
     }
 
     const chainFolderPath = path.join(baseDirectory, chainFolder);

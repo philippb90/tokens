@@ -12,6 +12,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@gfxlabs/oku-chains@npm:^1.1.161":
+  version: 1.1.161
+  resolution: "@gfxlabs/oku-chains@npm:1.1.161"
+  peerDependencies:
+    viem: 2.x
+  checksum: 10/69b730b3aef42a636602e662a38475eeeab10d5dcd207c05e61abd51b46d9785c8602a33e8bc4ceedf627215540a0cb7aec579a23d77e0e1e9d5a83d08580b26
+  languageName: node
+  linkType: hard
+
 "@noble/curves@npm:1.8.1, @noble/curves@npm:^1.6.0, @noble/curves@npm:~1.8.1":
   version: 1.8.1
   resolution: "@noble/curves@npm:1.8.1"
@@ -121,6 +130,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "oku-tokens@workspace:."
   dependencies:
+    "@gfxlabs/oku-chains": "npm:^1.1.161"
     "@types/node": "npm:^22.12.0"
     fs: "npm:^0.0.1-security"
     fs.promises: "npm:^0.1.2"

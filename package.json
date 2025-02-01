@@ -8,6 +8,7 @@
     "prettier:write": "./node_modules/.bin/prettier --cache --write chains/**/*.json"
   },
   "dependencies": {
+    "@gfxlabs/oku-chains": "^1.1.161",
     "fs": "^0.0.1-security",
     "fs.promises": "^0.1.2",
     "path": "^0.12.7",
