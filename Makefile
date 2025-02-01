@@ -10,3 +10,6 @@ lint:
 
 validate:
 	yarn validate
+
+update-list:
+	yarn list

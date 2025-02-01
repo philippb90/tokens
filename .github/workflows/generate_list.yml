@@ -1,0 +1,32 @@
+name: Validate PR
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup environment
+        run: make setup
+
+      - name: Validate code
+        run: make list
+
+      - name: Commit updated tokenlist.json
+        run: |
+          git config --local user.email "github-actions@github.com"
+          git config --local user.name "GitHub Actions"
+          if [ -n "$(git status --porcelain tokenlist.json)" ]; then
+            git add tokenlist.json
+            git commit -m "chore: update tokenlist [skip ci]"
+            git push origin master
+          else
+            echo "No changes in tokenlist.json"
+          fi
