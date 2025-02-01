@@ -17,7 +17,7 @@ jobs:
       - name: Setup environment
         run: make setup
 
-      - name: Validate code
+      - name: Update tokenlist.json
         run: make list
 
       - name: Commit updated tokenlist.json
