@@ -4,11 +4,20 @@ This repository contains token information that can be used by [Oku](https://oku
 
 ## Directory Structure
 
-- **Chain Folders:**  
+```plaintext
+chains/
+└── evm/
+    └── <chain-id>/
+        └── <checksummed-token-address>/
+            ├── info.json
+            └── logo.png
+```
+
+- **Chain ID Folders:**  
   Each chain folder must be named using a valid integer (representing the chain ID).  
   Example: `1`, `56`, `137`.
 
-- **Token Folders:**  
+- **Token Address Folders:**  
   Inside each chain folder, create a folder for each token using its address. The folder name must be a valid checksummed address. Use https://ethsum.netlify.app/ if you are unsure how to do this.
   Example: `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`.
 
