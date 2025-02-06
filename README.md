@@ -16,7 +16,7 @@ This repository contains token information that can be used by [Oku](https://oku
   Each token folder must contain an `info.json` file with the token details.
 
 - **Logo File:**  
-  Each token folder must contain a logo.png file representing the token's logo.
+  Each token folder must contain a `logo.png` file representing the token's logo.
 
 ## `info.json` Format
 
