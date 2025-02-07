@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-02-07T01:18:41.145Z",
+  "timestamp": "2025-02-07T17:25:03.114Z",
   "version": {
     "major": 27,
-    "minor": 13,
+    "minor": 14,
     "patch": 336
   },
   "tokens": [
@@ -1120,6 +1120,14 @@
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0x4379c13143eb91148ff9282cfb2f93536687a45b.png"
+    },
+    {
+      "address": "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
+      "name": "aixbt by Virtuals",
+      "symbol": "AIXBT",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825.png"
     },
     {
       "address": "0x62d481Eaeb30985B886F8f5B7BdF3a8386c3bC27",
