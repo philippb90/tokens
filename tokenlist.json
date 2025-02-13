@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-02-07T17:25:03.114Z",
+  "timestamp": "2025-02-13T22:15:26.675Z",
   "version": {
     "major": 27,
-    "minor": 14,
+    "minor": 15,
     "patch": 336
   },
   "tokens": [
@@ -984,6 +984,14 @@
       "decimals": 6,
       "chainId": 60808,
       "logoURI": "https://cdn.oku.trade/logos/60808/0xe75d0fb2c24a55ca1e3f96781a2bcc7bdba058f0.png"
+    },
+    {
+      "address": "0xecf21b335B41f9d5A89f6186A99c19a3c467871f",
+      "name": "Satoshi Stablecoin V2",
+      "symbol": "satUSD",
+      "decimals": 18,
+      "chainId": 60808,
+      "logoURI": "https://cdn.oku.trade/logos/60808/0xecf21b335b41f9d5a89f6186a99c19a3c467871f.png"
     },
     {
       "address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
