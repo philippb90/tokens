@@ -1,8 +1,8 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-02-13T22:15:26.675Z",
+  "timestamp": "2025-02-19T22:47:51.148Z",
   "version": {
-    "major": 27,
+    "major": 29,
     "minor": 15,
     "patch": 336
   },
@@ -346,6 +346,30 @@
       "logoURI": "https://cdn.oku.trade/logos/146/0xe6cc4d855b4fd4a9d02f46b9adae4c5efb1764b5.png"
     },
     {
+      "address": "0x6ed1F491e2d31536D6561f6bdB2AdC8F092a6076",
+      "name": "Wrapped RBNT",
+      "symbol": "WRBNT",
+      "decimals": 18,
+      "chainId": 151,
+      "logoURI": "https://cdn.oku.trade/logos/151/0x6ed1f491e2d31536d6561f6bdb2adc8f092a6076.png"
+    },
+    {
+      "address": "0x8201c02d4AB2214471E8C3AD6475C8b0CD9F2D06",
+      "name": "USD Coin",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "chainId": 151,
+      "logoURI": "https://cdn.oku.trade/logos/151/0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06.png"
+    },
+    {
+      "address": "0x8C4aCd74Ff4385f3B7911432FA6787Aa14406f8B",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "chainId": 151,
+      "logoURI": "https://cdn.oku.trade/logos/151/0x8c4acd74ff4385f3b7911432fa6787aa14406f8b.png"
+    },
+    {
       "address": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
       "name": "USD Coin",
       "symbol": "USDC",
@@ -584,6 +608,30 @@
       "decimals": 18,
       "chainId": 21000000,
       "logoURI": "https://cdn.oku.trade/logos/21000000/0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3.png"
+    },
+    {
+      "address": "0x3022b87ac063DE95b1570F46f5e470F8B53112D8",
+      "name": "Bridged USDC",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0x3022b87ac063de95b1570f46f5e470f8b53112d8.png"
+    },
+    {
+      "address": "0x3a1293Bdb83bBbDd5Ebf4fAc96605aD2021BbC0f",
+      "name": "WETH",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0x3a1293bdb83bbbdd5ebf4fac96605ad2021bbc0f.png"
+    },
+    {
+      "address": "0xbC10000000000000000000000000000000000000",
+      "name": "Wrapped Goat Bitcoin",
+      "symbol": "WGBTC",
+      "decimals": 18,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0xbc10000000000000000000000000000000000000.png"
     },
     {
       "address": "0x52E4d8989fa8b3E1C06696e7b16DEf5d7707A0d1",
