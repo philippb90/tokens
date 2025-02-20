@@ -1,8 +1,8 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-02-20T19:22:41.016Z",
+  "timestamp": "2025-02-20T22:51:49.461Z",
   "version": {
-    "major": 29,
+    "major": 30,
     "minor": 16,
     "patch": 336
   },
@@ -856,6 +856,30 @@
       "decimals": 18,
       "chainId": 534352,
       "logoURI": "https://cdn.oku.trade/logos/534352/0xd29687c813d741e2f938f4ac377128810e217b1b.png"
+    },
+    {
+      "address": "0xA19377761FED745723B90993988E04d641c2CfFE",
+      "name": "Saga",
+      "symbol": "SAGA",
+      "decimals": 6,
+      "chainId": 5464,
+      "logoURI": "https://cdn.oku.trade/logos/5464/0xa19377761fed745723b90993988e04d641c2cffe.png"
+    },
+    {
+      "address": "0xC8fe3C1de344854f4429bB333AFFAeF97eF88CEa",
+      "name": "Usdt",
+      "symbol": "USDT",
+      "decimals": 6,
+      "chainId": 5464,
+      "logoURI": "https://cdn.oku.trade/logos/5464/0xc8fe3c1de344854f4429bb333affaef97ef88cea.png"
+    },
+    {
+      "address": "0xfc960C233B8E98e0Cf282e29BDE8d3f105fc24d5",
+      "name": "Usdc",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 5464,
+      "logoURI": "https://cdn.oku.trade/logos/5464/0xfc960c233b8e98e0cf282e29bde8d3f105fc24d5.png"
     },
     {
       "address": "0x03158F64179CfF71ee3206024CeE79D55B70CA9D",
