@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-02-19T22:47:51.148Z",
+  "timestamp": "2025-02-20T17:20:02.234Z",
   "version": {
     "major": 29,
-    "minor": 15,
+    "minor": 16,
     "patch": 336
   },
   "tokens": [
@@ -992,6 +992,14 @@
       "decimals": 18,
       "chainId": 60808,
       "logoURI": "https://cdn.oku.trade/logos/60808/0x78fea795cbfcc5ffd6fb5b845a4f53d25c283bdb.png"
+    },
+    {
+      "address": "0x9998e05030Aee3Af9AD3df35A34F5C51e1628779",
+      "name": "Hybrid Bitcoin",
+      "symbol": "HybridBTC.pendle",
+      "decimals": 8,
+      "chainId": 60808,
+      "logoURI": "https://cdn.oku.trade/logos/60808/0x9998e05030aee3af9ad3df35a34f5c51e1628779.png"
     },
     {
       "address": "0xA45d4121b3D47719FF57a947A9d961539Ba33204",
