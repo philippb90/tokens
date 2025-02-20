@@ -658,12 +658,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gfxlabs/oku-chains@npm:^1.1.167":
-  version: 1.1.167
-  resolution: "@gfxlabs/oku-chains@npm:1.1.167"
+"@gfxlabs/oku-chains@npm:^1.1.168":
+  version: 1.1.168
+  resolution: "@gfxlabs/oku-chains@npm:1.1.168"
   peerDependencies:
     viem: 2.x
-  checksum: 10/b342e4187c81176da55146f27edf6d7c7bb0f843667a4c39bfa7ba5f708ac90e9b352dfae271fd8ab5e5ffd07fbad2b080dc4aa2da1f7b478b41f9369faef83e
+  checksum: 10/c7775a4ec6253a16aca97a58a9c93df3c40f532385a2eab5e6bf6e7e706619c5982dcd6633515baac7cd371a2a4e5bc4b804ef07d5e842a99752b5dafc1bd123
   languageName: node
   linkType: hard
 
@@ -1616,7 +1616,7 @@ __metadata:
   resolution: "oku-tokens@workspace:."
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.740.0"
-    "@gfxlabs/oku-chains": "npm:^1.1.167"
+    "@gfxlabs/oku-chains": "npm:^1.1.168"
     "@types/node": "npm:^22.12.0"
     fs: "npm:^0.0.1-security"
     fs.promises: "npm:^0.1.2"
