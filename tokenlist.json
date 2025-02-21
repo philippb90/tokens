@@ -1,10 +1,10 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-02-20T22:51:49.461Z",
+  "timestamp": "2025-02-21T18:03:38.472Z",
   "version": {
     "major": 30,
-    "minor": 16,
-    "patch": 336
+    "minor": 18,
+    "patch": 338
   },
   "tokens": [
     {
@@ -858,6 +858,14 @@
       "logoURI": "https://cdn.oku.trade/logos/534352/0xd29687c813d741e2f938f4ac377128810e217b1b.png"
     },
     {
+      "address": "0x4E33613adD93463E82A14080021f2FfaF1e062CF",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "chainId": 5464,
+      "logoURI": "https://cdn.oku.trade/logos/5464/0x4e33613add93463e82a14080021f2ffaf1e062cf.png"
+    },
+    {
       "address": "0xA19377761FED745723B90993988E04d641c2CfFE",
       "name": "Saga",
       "symbol": "SAGA",
@@ -867,15 +875,23 @@
     },
     {
       "address": "0xC8fe3C1de344854f4429bB333AFFAeF97eF88CEa",
-      "name": "Usdt",
+      "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
       "chainId": 5464,
       "logoURI": "https://cdn.oku.trade/logos/5464/0xc8fe3c1de344854f4429bb333affaef97ef88cea.png"
     },
     {
+      "address": "0xeb41D53F14Cb9a67907f2b8b5DBc223944158cCb",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 5464,
+      "logoURI": "https://cdn.oku.trade/logos/5464/0xeb41d53f14cb9a67907f2b8b5dbc223944158ccb.png"
+    },
+    {
       "address": "0xfc960C233B8E98e0Cf282e29BDE8d3f105fc24d5",
-      "name": "Usdc",
+      "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 5464,
