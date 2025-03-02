@@ -1,10 +1,10 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-02-21T18:03:38.472Z",
+  "timestamp": "2025-03-02T18:22:21.663Z",
   "version": {
     "major": 30,
-    "minor": 18,
-    "patch": 338
+    "minor": 24,
+    "patch": 340
   },
   "tokens": [
     {
@@ -610,8 +610,24 @@
       "logoURI": "https://cdn.oku.trade/logos/21000000/0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3.png"
     },
     {
+      "address": "0x02F294cC9Ceb2c80FbA3fD779e17FE191Cc360C4",
+      "name": "BTC Deposited token",
+      "symbol": "ArtBTC",
+      "decimals": 18,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0x02f294cc9ceb2c80fba3fd779e17fe191cc360c4.png"
+    },
+    {
+      "address": "0x1E0d0303a8c4aD428953f5ACB1477dB42bb838cf",
+      "name": "Binance-Peg Dogecoin",
+      "symbol": "DOGEB",
+      "decimals": 18,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0x1e0d0303a8c4ad428953f5acb1477db42bb838cf.png"
+    },
+    {
       "address": "0x3022b87ac063DE95b1570F46f5e470F8B53112D8",
-      "name": "Bridged USDC",
+      "name": "USDC.e",
       "symbol": "USDC.e",
       "decimals": 6,
       "chainId": 2345,
@@ -626,12 +642,44 @@
       "logoURI": "https://cdn.oku.trade/logos/2345/0x3a1293bdb83bbbdd5ebf4fac96605ad2021bbc0f.png"
     },
     {
+      "address": "0x941508f0B823f1BC40a9beEFCE5e544E525a94c3",
+      "name": "BTCB Deposited token",
+      "symbol": "ArtBTCB",
+      "decimals": 18,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0x941508f0b823f1bc40a9beefce5e544e525a94c3.png"
+    },
+    {
+      "address": "0xE1AD845D93853fff44990aE0DcecD8575293681e",
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0xe1ad845d93853fff44990ae0dcecd8575293681e.png"
+    },
+    {
+      "address": "0xa3027972E2bf168d3Df12a1533f073b330126f34",
+      "name": "Binance-Peg Dogecoin Deposited token",
+      "symbol": "ArtDOGEB",
+      "decimals": 18,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0xa3027972e2bf168d3df12a1533f073b330126f34.png"
+    },
+    {
       "address": "0xbC10000000000000000000000000000000000000",
-      "name": "Wrapped Goat Bitcoin",
+      "name": "Wrapped Bitcoin",
       "symbol": "WGBTC",
       "decimals": 18,
       "chainId": 2345,
       "logoURI": "https://cdn.oku.trade/logos/2345/0xbc10000000000000000000000000000000000000.png"
+    },
+    {
+      "address": "0xfe41e7e5cB3460c483AB2A38eb605Cda9e2d248E",
+      "name": "Binance-Peg BTCB",
+      "symbol": "BTCB",
+      "decimals": 18,
+      "chainId": 2345,
+      "logoURI": "https://cdn.oku.trade/logos/2345/0xfe41e7e5cb3460c483ab2a38eb605cda9e2d248e.png"
     },
     {
       "address": "0x52E4d8989fa8b3E1C06696e7b16DEf5d7707A0d1",
