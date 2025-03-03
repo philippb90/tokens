@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-03T21:57:21.053Z",
+  "timestamp": "2025-03-03T22:14:48.869Z",
   "version": {
     "major": 30,
-    "minor": 24,
+    "minor": 25,
     "patch": 340
   },
   "tokens": [
@@ -848,6 +848,14 @@
       "decimals": 18,
       "chainId": 43111,
       "logoURI": "https://cdn.oku.trade/logos/43111/0x6fd31f56eb971113bea12c5883dec68337b3b7b5.png"
+    },
+    {
+      "address": "0xAA40c0c7644e0b2B224509571e10ad20d9C4ef28",
+      "name": "hemiBTC",
+      "symbol": "hemiBTC",
+      "decimals": 8,
+      "chainId": 43111,
+      "logoURI": "https://cdn.oku.trade/logos/43111/0xaa40c0c7644e0b2b224509571e10ad20d9c4ef28.png"
     },
     {
       "address": "0xad11a8BEb98bbf61dbb1aa0F6d6F2ECD87b35afA",
