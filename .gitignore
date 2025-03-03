@@ -12,5 +12,7 @@
 #!.yarn/cache
 .pnp.*
 dist
-.DS_Store
 node_modules
+
+# Ignore macOS system files
+.DS_Store
