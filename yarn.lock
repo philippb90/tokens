@@ -658,12 +658,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gfxlabs/oku-chains@npm:^1.1.168":
-  version: 1.1.168
-  resolution: "@gfxlabs/oku-chains@npm:1.1.168"
+"@gfxlabs/oku-chains@npm:^1.1.174":
+  version: 1.1.174
+  resolution: "@gfxlabs/oku-chains@npm:1.1.174"
   peerDependencies:
     viem: 2.x
-  checksum: 10/c7775a4ec6253a16aca97a58a9c93df3c40f532385a2eab5e6bf6e7e706619c5982dcd6633515baac7cd371a2a4e5bc4b804ef07d5e842a99752b5dafc1bd123
+  checksum: 10/93b25578d861a867ff8390cc2f674869c1a763db876c18ddba2b196532b45d02cc049184ad9304164b43523a0df78fe1926c658b8694975d21f42e2379fd5dcd
   languageName: node
   linkType: hard
 
@@ -1616,7 +1616,7 @@ __metadata:
   resolution: "oku-tokens@workspace:."
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.740.0"
-    "@gfxlabs/oku-chains": "npm:^1.1.168"
+    "@gfxlabs/oku-chains": "npm:^1.1.174"
     "@types/node": "npm:^22.12.0"
     fs: "npm:^0.0.1-security"
     fs.promises: "npm:^0.1.2"
@@ -1624,7 +1624,7 @@ __metadata:
     prettier: "npm:^3.4.2"
     sharp: "npm:^0.33.5"
     typescript: "npm:^5.7.3"
-    viem: "npm:^2.23.3"
+    viem: "npm:^2.23.5"
     zod: "npm:^3.24.1"
   languageName: unknown
   linkType: soft
@@ -1821,9 +1821,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"viem@npm:^2.23.3":
-  version: 2.23.3
-  resolution: "viem@npm:2.23.3"
+"viem@npm:^2.23.5":
+  version: 2.23.5
+  resolution: "viem@npm:2.23.5"
   dependencies:
     "@noble/curves": "npm:1.8.1"
     "@noble/hashes": "npm:1.7.1"
@@ -1838,7 +1838,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/373c9ad7b3a9733ee9da9d84944b7b8522ed2e25b2b18978606ed59b79b5e4a52f36e9dc8fd0d6d9dc5d587ec51bd308af81fa9ff65b2078f42fc4fce8ccec95
+  checksum: 10/80db013d510688386c37500442c29d85b9adda3035c3a3644156828830cf856f95d6c228dd4fe97d21f270bde9b63bfb98ebf2538bbd1831d40b38918ed07787
   languageName: node
   linkType: hard
 
