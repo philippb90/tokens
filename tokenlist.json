@@ -1,8 +1,8 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-03T22:14:48.869Z",
+  "timestamp": "2025-03-04T00:23:11.091Z",
   "version": {
-    "major": 30,
+    "major": 31,
     "minor": 25,
     "patch": 340
   },
@@ -512,6 +512,38 @@
       "decimals": 6,
       "chainId": 1750,
       "logoURI": "https://cdn.oku.trade/logos/1750/0x51e85d70944256710cb141847f1a04f568c1db0e.png"
+    },
+    {
+      "address": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 1890,
+      "logoURI": "https://cdn.oku.trade/logos/1890/0x7ebef2a4b1b09381ec5b9df8c5c6f2dbeca59c73.png"
+    },
+    {
+      "address": "0x808d7c71ad2ba3FA531b068a2417C63106BC0949",
+      "name": "Tether USD (Stargate Bridged)",
+      "symbol": "USDT",
+      "decimals": 6,
+      "chainId": 1890,
+      "logoURI": "https://cdn.oku.trade/logos/1890/0x808d7c71ad2ba3fa531b068a2417c63106bc0949.png"
+    },
+    {
+      "address": "0xbCF8C1B03bBDDA88D579330BDF236B58F8bb2cFd",
+      "name": "Bridged USDC (Stargate)",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "chainId": 1890,
+      "logoURI": "https://cdn.oku.trade/logos/1890/0xbcf8c1b03bbdda88d579330bdf236b58f8bb2cfd.png"
+    },
+    {
+      "address": "0xd9d7123552fA2bEdB2348bB562576D67f6E8e96E",
+      "name": "LightLink",
+      "symbol": "LL.e",
+      "decimals": 18,
+      "chainId": 1890,
+      "logoURI": "https://cdn.oku.trade/logos/1890/0xd9d7123552fa2bedb2348bb562576d67f6e8e96e.png"
     },
     {
       "address": "0x09DEF5aBc67e967d54E8233A4b5EBBc1B3fbE34b",
