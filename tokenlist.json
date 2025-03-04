@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-04T00:23:11.091Z",
+  "timestamp": "2025-03-04T18:09:33.180Z",
   "version": {
     "major": 31,
-    "minor": 25,
+    "minor": 26,
     "patch": 340
   },
   "tokens": [
@@ -880,6 +880,14 @@
       "decimals": 18,
       "chainId": 43111,
       "logoURI": "https://cdn.oku.trade/logos/43111/0x6fd31f56eb971113bea12c5883dec68337b3b7b5.png"
+    },
+    {
+      "address": "0x7A06C4AeF988e7925575C50261297a946aD204A8",
+      "name": "Virtual USD",
+      "symbol": "vUSD",
+      "decimals": 18,
+      "chainId": 43111,
+      "logoURI": "https://cdn.oku.trade/logos/43111/0x7a06c4aef988e7925575c50261297a946ad204a8.png"
     },
     {
       "address": "0xAA40c0c7644e0b2B224509571e10ad20d9C4ef28",
