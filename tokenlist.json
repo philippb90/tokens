@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-06T22:30:38.668Z",
+  "timestamp": "2025-03-10T15:23:33.315Z",
   "version": {
     "major": 31,
-    "minor": 28,
+    "minor": 37,
     "patch": 340
   },
   "tokens": [
@@ -136,6 +136,105 @@
       "decimals": 18,
       "chainId": 10,
       "logoURI": "https://cdn.oku.trade/logos/10/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91.png"
+    },
+    {
+      "name": "Backed Tesla",
+      "website": "https://backed.fi/",
+      "description": "bTSLA is a tokenized Tesla product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0x14A5f2872396802C3Cc8942A39Ab3E4118EE5038",
+      "symbol": "bTSLA",
+      "decimals": 18,
+      "address": "0x14A5f2872396802C3Cc8942A39Ab3E4118EE5038",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0x14a5f2872396802c3cc8942a39ab3e4118ee5038.png"
+    },
+    {
+      "name": "Wrapped Backed Strategy",
+      "website": "https://backed.fi/",
+      "description": "wbMSTR is a wrapper of bMSTR, a tokenized Strategy product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0x1a4F71B0Ff3C22540887bcf83b50054a213c673d",
+      "symbol": "wbMSTR",
+      "decimals": 18,
+      "address": "0x1a4F71B0Ff3C22540887bcf83b50054a213c673d",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0x1a4f71b0ff3c22540887bcf83b50054a213c673d.png"
+    },
+    {
+      "name": "Backed CSPX S&P 500",
+      "website": "https://backed.fi/",
+      "description": "bCSPX is a tokenized S&P 500 product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+      "symbol": "bCSPX",
+      "decimals": 18,
+      "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0x1e2c4fb7ede391d116e6b41cd0608260e8801d59.png"
+    },
+    {
+      "name": "Wrapped Backed Tesla",
+      "website": "https://backed.fi/",
+      "description": "wbTSLA is a wrapper of bTSLA, a  tokenized Tesla product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0x1f82284C1658Ad71C576f7230E6C2DEE7901c1FA",
+      "symbol": "wbTSLA",
+      "decimals": 18,
+      "address": "0x1f82284C1658Ad71C576f7230E6C2DEE7901c1FA",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0x1f82284c1658ad71c576f7230e6c2dee7901c1fa.png"
+    },
+    {
+      "name": "Wrapped Backed NVIDIA",
+      "website": "https://backed.fi/",
+      "description": "wbNVDA is a wrapper of bNVDA, a tokenized NVIDIA product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0x7E8101A1C322D394b3961498c7D40d2DFA94C392",
+      "symbol": "wbNVDA",
+      "decimals": 18,
+      "address": "0x7E8101A1C322D394b3961498c7D40d2DFA94C392",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0x7e8101a1c322d394b3961498c7d40d2dfa94c392.png"
+    },
+    {
+      "name": "Backed NVIDIA",
+      "website": "https://backed.fi/",
+      "description": "bNVDA is a tokenized NVIDIA product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0xA34C5e0AbE843E10461E2C9586Ea03E55Dbcc495",
+      "symbol": "bNVDA",
+      "decimals": 18,
+      "address": "0xA34C5e0AbE843E10461E2C9586Ea03E55Dbcc495",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0xa34c5e0abe843e10461e2c9586ea03e55dbcc495.png"
+    },
+    {
+      "name": "Wrapped Backed Coinbase",
+      "website": "https://backed.fi/",
+      "description": "wbCOIN is a wrapper of bCOIN, a tokenized Coinbase product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0xDEc933e2392AD908263e70A386fbF34e703Ffe8F",
+      "symbol": "wbCOIN",
+      "decimals": 18,
+      "address": "0xDEc933e2392AD908263e70A386fbF34e703Ffe8F",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0xdec933e2392ad908263e70a386fbf34e703ffe8f.png"
+    },
+    {
+      "name": "Backed Strategy",
+      "website": "https://backed.fi/",
+      "description": "bMSTR is a tokenized Strategy product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0xaC28C9178ACc8BA4A11A29E013a3A2627086e422",
+      "symbol": "bMSTR",
+      "decimals": 18,
+      "address": "0xaC28C9178ACc8BA4A11A29E013a3A2627086e422",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0xac28c9178acc8ba4a11a29e013a3a2627086e422.png"
+    },
+    {
+      "name": "Backed Coinbase",
+      "website": "https://backed.fi/",
+      "description": "bCOIN is a tokenized Coinbase product, issued by Backed",
+      "explorer": "https://blockscout.com/xdai/mainnet/tokens/0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+      "symbol": "bCOIN",
+      "decimals": 18,
+      "address": "0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+      "chainId": 100,
+      "logoURI": "https://cdn.oku.trade/logos/100/0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9.png"
     },
     {
       "address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d",
