@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-10T15:23:33.315Z",
+  "timestamp": "2025-03-17T19:29:29.905Z",
   "version": {
     "major": 31,
-    "minor": 37,
+    "minor": 38,
     "patch": 340
   },
   "tokens": [
@@ -899,6 +899,14 @@
       "decimals": 6,
       "chainId": 40,
       "logoURI": "https://cdn.oku.trade/logos/40/0x8d97cea50351fb4329d591682b148d43a0c3611b.png"
+    },
+    {
+      "address": "0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905",
+      "name": "Staked TLOS",
+      "symbol": "STLOS",
+      "decimals": 18,
+      "chainId": 40,
+      "logoURI": "https://cdn.oku.trade/logos/40/0xb4b01216a5bc8f1c8a33cd990a1239030e60c905.png"
     },
     {
       "address": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
