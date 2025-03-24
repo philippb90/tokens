@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-17T19:29:29.905Z",
+  "timestamp": "2025-03-24T14:52:44.364Z",
   "version": {
     "major": 31,
-    "minor": 38,
+    "minor": 42,
     "patch": 340
   },
   "tokens": [
@@ -893,6 +893,22 @@
       "logoURI": "https://cdn.oku.trade/logos/324/0xd03465338226ea0178337f4abb16fdd6df529f57.png"
     },
     {
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "chainId": 40,
+      "logoURI": "https://cdn.oku.trade/logos/40/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+    },
+    {
+      "address": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+      "name": "Bridged stgUSDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "chainId": 40,
+      "logoURI": "https://cdn.oku.trade/logos/40/0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
+    },
+    {
       "address": "0x8D97Cea50351Fb4329d591682b148D43a0C3611b",
       "name": "USD Coin",
       "symbol": "USDC",
@@ -909,12 +925,28 @@
       "logoURI": "https://cdn.oku.trade/logos/40/0xb4b01216a5bc8f1c8a33cd990a1239030e60c905.png"
     },
     {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "address": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+      "chainId": 40,
+      "logoURI": "https://cdn.oku.trade/logos/40/0xbab93b7ad7fe8692a878b95a8e689423437cc500.png"
+    },
+    {
       "address": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
       "name": "Wrapped TLOS",
       "symbol": "WTLOS",
       "decimals": 18,
       "chainId": 40,
       "logoURI": "https://cdn.oku.trade/logos/40/0xd102ce6a4db07d247fcc28f366a623df0938ca9e.png"
+    },
+    {
+      "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+      "name": "Bridged USDC (Stargate)",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "chainId": 40,
+      "logoURI": "https://cdn.oku.trade/logos/40/0xf1815bd50389c46847f0bda824ec8da914045d14.png"
     },
     {
       "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
