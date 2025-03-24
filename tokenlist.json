@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-24T14:52:44.364Z",
+  "timestamp": "2025-03-24T19:41:03.226Z",
   "version": {
-    "major": 31,
-    "minor": 42,
+    "major": 33,
+    "minor": 184,
     "patch": 340
   },
   "tokens": [
@@ -245,12 +245,212 @@
       "logoURI": "https://cdn.oku.trade/logos/100/0xe91d153e0b41518a2ce8dd3d7944fa863463a97d.png"
     },
     {
+      "address": "0x04c7D5Bb9b4015249C5245FC9818f038e58AAaE6",
+      "name": "BlackRock Ultra Short-Term Bond ETF Tokenized by Sailing",
+      "symbol": "ICSHs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x04c7d5bb9b4015249c5245fc9818f038e58aaae6.png"
+    },
+    {
+      "address": "0x067BE3C4d8e2F59D08B941869F57C0Fbbf5e4263",
+      "name": "Tesla Inc Tokenized by Sailing",
+      "symbol": "TSLAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x067be3c4d8e2f59d08b941869f57c0fbbf5e4263.png"
+    },
+    {
+      "address": "0x078DF64144545537E7B0BD28C3DEef5474D2dd0E",
+      "name": "MicroStrategy Inc Tokenized by Sailing",
+      "symbol": "MSTRs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x078df64144545537e7b0bd28c3deef5474d2dd0e.png"
+    },
+    {
+      "address": "0x0BB700811e47F6259CB3166A5028Ab7B19992CfD",
+      "name": "Comcast Corporation Tokenized by Sailing",
+      "symbol": "CMCSAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x0bb700811e47f6259cb3166a5028ab7b19992cfd.png"
+    },
+    {
+      "address": "0x0d12aB10d5f3937D6890F4f6f0422313D61cb404",
+      "name": "Advanced Micro Devices Inc Tokenized by Sailing",
+      "symbol": "AMDs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x0d12ab10d5f3937d6890f4f6f0422313d61cb404.png"
+    },
+    {
+      "address": "0x113d554Ee1c41Fd8680FD917DAD6AA5D8eC3Fb18",
+      "name": "Vanguard FTSE Developed Markets ETF Tokenized by Sailing",
+      "symbol": "VEAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x113d554ee1c41fd8680fd917dad6aa5d8ec3fb18.png"
+    },
+    {
+      "address": "0x11929Ba8C1236917DFbB3981519911bdE15D039E",
+      "name": "iShares S&P GSCI Commodity-Indexed Trust Tokenized by Sailing",
+      "symbol": "GSGs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x11929ba8c1236917dfbb3981519911bde15d039e.png"
+    },
+    {
+      "address": "0x1B16D8BB14F3CcEe9F88Da243000A4b9d125463f",
+      "name": "Schwab Short-Term U.S. Treasury ETF Tokenized by Sailing",
+      "symbol": "SCHOs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x1b16d8bb14f3ccee9f88da243000a4b9d125463f.png"
+    },
+    {
+      "address": "0x24595a68494B7EB94162A9bDABA565699F886487",
+      "name": "PIMCO Enhanced Short Maturity Active ETF Tokenized by Sailing",
+      "symbol": "MINTs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x24595a68494b7eb94162a9bdaba565699f886487.png"
+    },
+    {
+      "address": "0x3513A6031d231d77a8166FB9b64dCc9e8920bF9b",
+      "name": "Nokia Corporation Tokenized by Sailing",
+      "symbol": "NOKs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x3513a6031d231d77a8166fb9b64dcc9e8920bf9b.png"
+    },
+    {
+      "address": "0x37573aFDa1CCd8940284e65Ed0ad77c5c072259d",
+      "name": "United States Brent Oil Fund Tokenized by Sailing",
+      "symbol": "BNOs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x37573afda1ccd8940284e65ed0ad77c5c072259d.png"
+    },
+    {
       "address": "0x37eAA0eF3549a5Bb7D431be78a3D99BD360d19e5",
       "name": "USD Coin",
       "symbol": "USDC.E",
       "decimals": 6,
       "chainId": 1101,
       "logoURI": "https://cdn.oku.trade/logos/1101/0x37eaa0ef3549a5bb7d431be78a3d99bd360d19e5.png"
+    },
+    {
+      "address": "0x3837b038E3194d18BD5Eb099C69399820C49FbFf",
+      "name": "Grupo Supervielle SA Tokenized by Sailing",
+      "symbol": "SUPVs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x3837b038e3194d18bd5eb099c69399820c49fbff.png"
+    },
+    {
+      "address": "0x3e53d74A38c7d9C4B05488FA1d4a5642D4397501",
+      "name": "Oracle Corporation Tokenized by Sailing",
+      "symbol": "ORCLs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x3e53d74a38c7d9c4b05488fa1d4a5642d4397501.png"
+    },
+    {
+      "address": "0x407070d52645F52798fd5b27a986F691075c7b0a",
+      "name": "Amazon.com Inc Tokenized by Sailing",
+      "symbol": "AMZNs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x407070d52645f52798fd5b27a986f691075c7b0a.png"
+    },
+    {
+      "address": "0x41BE7fa98d31Bef10EfD83EaE2AF94D9479A5f94",
+      "name": "Goldman Sachs Physical Gold ETF Tokenized by Sailing",
+      "symbol": "AAAUs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x41be7fa98d31bef10efd83eae2af94d9479a5f94.png"
+    },
+    {
+      "address": "0x47120508a23fb58aD4514Db5423Fb0F73195D76b",
+      "name": "Alphabet Inc Tokenized by Sailing",
+      "symbol": "GOOGLs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x47120508a23fb58ad4514db5423fb0f73195d76b.png"
+    },
+    {
+      "address": "0x4A84628eF0862b78fD364027A2dcdAE6C7eAFF53",
+      "name": "Invesco DB Commodity Index Tracking Fund Tokenized by Sailing",
+      "symbol": "DBCs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x4a84628ef0862b78fd364027a2dcdae6c7eaff53.png"
+    },
+    {
+      "address": "0x4AB1202e3e4D512F298181f5a215149D629026b0",
+      "name": "United States Oil Fund Tokenized by Sailing",
+      "symbol": "USOs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x4ab1202e3e4d512f298181f5a215149d629026b0.png"
+    },
+    {
+      "address": "0x57D76e6190AEc321782b5796aDFF2462D9b15CE7",
+      "name": "Warner Bros. Discovery Inc Tokenized by Sailing",
+      "symbol": "WBDs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x57d76e6190aec321782b5796adff2462d9b15ce7.png"
+    },
+    {
+      "address": "0x63c4B9bE7894BAe6038A2877A9f6c9960273CA4e",
+      "name": "Alibaba Group Holding Limited Tokenized by Sailing",
+      "symbol": "BABAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x63c4b9be7894bae6038a2877a9f6c9960273ca4e.png"
+    },
+    {
+      "address": "0x65F9d55861abD86dA693E6576537FDc64cB4fDba",
+      "name": "Sony Group Corporation Tokenized by Sailing",
+      "symbol": "SONYs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x65f9d55861abd86da693e6576537fdc64cb4fdba.png"
+    },
+    {
+      "address": "0x673158D12Ab3E06dBC006d09B81d79c673477C54",
+      "name": "Ginkgo Bioworks Inc Tokenized by Sailing",
+      "symbol": "DNAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x673158d12ab3e06dbc006d09b81d79c673477c54.png"
+    },
+    {
+      "address": "0x7030D3Ac1BF9D4e8dd4098aACf17AE0A7cBeae14",
+      "name": "Adobe Inc Tokenized by Sailing",
+      "symbol": "ADBEs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x7030d3ac1bf9d4e8dd4098aacf17ae0a7cbeae14.png"
+    },
+    {
+      "address": "0x7247784A20aC744FB767d6B6AA8f50cc07AFD466",
+      "name": "SPDR S&P 500 ETF Trust Tokenized by Sailing",
+      "symbol": "SPYs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x7247784a20ac744fb767d6b6aa8f50cc07afd466.png"
+    },
+    {
+      "address": "0x7395e43f6EE98DA5698f8CeBD4b5ED02A3392F15",
+      "name": "Palantir Technologies Inc Tokenized by Sailing",
+      "symbol": "PLTRs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x7395e43f6ee98da5698f8cebd4b5ed02a3392f15.png"
     },
     {
       "address": "0x744C5860ba161b5316F7E80D9Ec415e2727e5bD5",
@@ -261,12 +461,236 @@
       "logoURI": "https://cdn.oku.trade/logos/1101/0x744c5860ba161b5316f7e80d9ec415e2727e5bd5.png"
     },
     {
+      "address": "0x74563E8f2e2541bddEEC7A3Af8cF4879BbD32F1f",
+      "name": "Vanguard S&P 500 ETF Tokenized by Sailing",
+      "symbol": "VOOs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x74563e8f2e2541bddeec7a3af8cf4879bbd32f1f.png"
+    },
+    {
+      "address": "0x77F67f3759e445a5dD16ed17F39c8eC1ec3E417b",
+      "name": "GameStop Corp Tokenized by Sailing",
+      "symbol": "GMEs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x77f67f3759e445a5dd16ed17f39c8ec1ec3e417b.png"
+    },
+    {
+      "address": "0x80c03d8Bd0DC9B1594DE322EFD59455d5De08937",
+      "name": "Microsoft Corporation Tokenized by Sailing",
+      "symbol": "MSFTs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x80c03d8bd0dc9b1594de322efd59455d5de08937.png"
+    },
+    {
+      "address": "0x86790014dEab4482609add20E95f647F29f30962",
+      "name": "United States Gasoline Fund Tokenized by Sailing",
+      "symbol": "UGAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x86790014deab4482609add20e95f647f29f30962.png"
+    },
+    {
+      "address": "0x8B493cbC8cEA789bb405Dfc49CC1a39c7F42be6F",
+      "name": "Live Nation Entertainment Inc Tokenized by Sailing",
+      "symbol": "LYVs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x8b493cbc8cea789bb405dfc49cc1a39c7f42be6f.png"
+    },
+    {
+      "address": "0x90F2e18A1E25efC3E8d8938D4813EAD070559414",
+      "name": "Roku Inc Tokenized by Sailing",
+      "symbol": "ROKUs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x90f2e18a1e25efc3e8d8938d4813ead070559414.png"
+    },
+    {
+      "address": "0x92D7b08E86D7f89DF660d3fe32dfbed2b6bfD2c8",
+      "name": "Nvidia Corporation Tokenized by Sailing",
+      "symbol": "NVDAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x92d7b08e86d7f89df660d3fe32dfbed2b6bfd2c8.png"
+    },
+    {
+      "address": "0x9E0055c624540448E139406B075F2e9E6fE5daA8",
+      "name": "McDonald's Tokenized by Sailing",
+      "symbol": "MCDs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x9e0055c624540448e139406b075f2e9e6fe5daa8.png"
+    },
+    {
+      "address": "0x9c0aA8bc3E4e7d0583D106406130746970b2615a",
+      "name": "Electronic Arts Inc Tokenized by Sailing",
+      "symbol": "EAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x9c0aa8bc3e4e7d0583d106406130746970b2615a.png"
+    },
+    {
+      "address": "0x9c48fA1eb54a3685B14878F57945794D29C88C9D",
+      "name": "iShares Core S&P 500 ETF Tokenized by Sailing",
+      "symbol": "IVVs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0x9c48fa1eb54a3685b14878f57945794d29c88c9d.png"
+    },
+    {
+      "address": "0xAC3993bF624a68011DEEd66a995AC5f6f8fD1e34",
+      "name": "ARK Innovation ETF Tokenized by Sailing",
+      "symbol": "ARKKs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xac3993bf624a68011deed66a995ac5f6f8fd1e34.png"
+    },
+    {
+      "address": "0xBd319D2f88eE5bf6A0FAefAbb3d0Df9D83F8F805",
+      "name": "Intel Corporation Tokenized by Sailing",
+      "symbol": "INTCs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xbd319d2f88ee5bf6a0faefabb3d0df9d83f8f805.png"
+    },
+    {
+      "address": "0xC4c8844Fbb4356F52d93D8FACb8a602a344d16F5",
+      "name": "Invesco DB Agriculture Fund Tokenized by Sailing",
+      "symbol": "DBAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xc4c8844fbb4356f52d93d8facb8a602a344d16f5.png"
+    },
+    {
+      "address": "0xC4f15155A9E18e39fF9496aB5179a5799a9f4f34",
+      "name": "The Walt Disney Company Tokenized by Sailing",
+      "symbol": "DISs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xc4f15155a9e18e39ff9496ab5179a5799a9f4f34.png"
+    },
+    {
       "address": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4",
       "name": "Legacy Dai",
       "symbol": "DAI",
       "decimals": 18,
       "chainId": 1101,
       "logoURI": "https://cdn.oku.trade/logos/1101/0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4.png"
+    },
+    {
+      "address": "0xC617aF04C015FF1d1445A4C04fa80cD894583A26",
+      "name": "Cisco Systems Inc Tokenized by Sailing",
+      "symbol": "CSCOs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xc617af04c015ff1d1445a4c04fa80cd894583a26.png"
+    },
+    {
+      "address": "0xD8a8dA48858ad654806C06fcaE3281cBD588D2B2",
+      "name": "Aberdeen Standard Physical Palladium Shares ETF Tokenized by Sailing",
+      "symbol": "PALLs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xd8a8da48858ad654806c06fcae3281cbd588d2b2.png"
+    },
+    {
+      "address": "0xDb982Fc17EbF8d8DC18Dade3cA9142Ff9a99a23f",
+      "name": "DLocal Ltd Tokenized by Sailing",
+      "symbol": "DLOs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xdb982fc17ebf8d8dc18dade3ca9142ff9a99a23f.png"
+    },
+    {
+      "address": "0xE4704a8C7Ba1FD4b58D8F3fe65b058fF48ca82B7",
+      "name": "CrowdStrike Holdings Inc Tokenized by Sailing",
+      "symbol": "CRWDs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xe4704a8c7ba1fd4b58d8f3fe65b058ff48ca82b7.png"
+    },
+    {
+      "address": "0xFc5FD976f21bf6255bA18cf89d310cbcBfA60C0E",
+      "name": "Invesco QQQ Trust Tokenized by Sailing",
+      "symbol": "QQQs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xfc5fd976f21bf6255ba18cf89d310cbcbfa60c0e.png"
+    },
+    {
+      "address": "0xa64bA1a4d5D6582D87421e5AeA25A023324EBdB1",
+      "name": "Vanguard Total Stock Market ETF Tokenized by Sailing",
+      "symbol": "VTIs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xa64ba1a4d5d6582d87421e5aea25a023324ebdb1.png"
+    },
+    {
+      "address": "0xa8091ab7929F81D4F912f5F3b50D2F1321D68B22",
+      "name": "Netflix Inc Tokenized by Sailing",
+      "symbol": "NFLXs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xa8091ab7929f81d4f912f5f3b50d2f1321d68b22.png"
+    },
+    {
+      "address": "0xb838218D53a1Cf4b4C3c546F026e884240f4cd07",
+      "name": "Airbnb Inc Tokenized by Sailing",
+      "symbol": "ABNBs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xb838218d53a1cf4b4c3c546f026e884240f4cd07.png"
+    },
+    {
+      "address": "0xd4D5661d25d0E263615AF099d2979F205aFA33A6",
+      "name": "Meta Platforms Inc Tokenized by Sailing",
+      "symbol": "METAs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xd4d5661d25d0e263615af099d2979f205afa33a6.png"
+    },
+    {
+      "address": "0xeA5B25923Fdf461d41ed924e0aFB94558fb087D0",
+      "name": "JPMorgan Ultra-Short Income ETF Tokenized by Sailing",
+      "symbol": "JPSTs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xea5b25923fdf461d41ed924e0afb94558fb087d0.png"
+    },
+    {
+      "address": "0xeDc3872C7A8af1F0C5B23Ac9f4E45054CDD263d6",
+      "name": "AMC Entertainment Holdings Inc Tokenized by Sailing",
+      "symbol": "AMCs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xedc3872c7a8af1f0c5b23ac9f4e45054cdd263d6.png"
+    },
+    {
+      "address": "0xf064C2C55b71F453a5acFd517B2819D711E068Ab",
+      "name": "Apple Inc Tokenized by Sailing",
+      "symbol": "AAPLs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xf064c2c55b71f453a5acfd517b2819d711e068ab.png"
+    },
+    {
+      "address": "0xf3744a2205D8f14E40D1504085Fbe7a9A09767B7",
+      "name": "iShares Silver Trust Tokenized by Sailing",
+      "symbol": "SLVs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xf3744a2205d8f14e40d1504085fbe7a9a09767b7.png"
+    },
+    {
+      "address": "0xfEcF6cd5784070B51C3f4C758a61f94A568A0E10",
+      "name": "International Business Machines Corporation Tokenized by Sailing",
+      "symbol": "IBMs",
+      "decimals": 18,
+      "chainId": 1101,
+      "logoURI": "https://cdn.oku.trade/logos/1101/0xfecf6cd5784070b51c3f4c758a61f94a568a0e10.png"
     },
     {
       "address": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
@@ -365,12 +789,76 @@
       "logoURI": "https://cdn.oku.trade/logos/1329/0xe30fedd158a2e3b13e9badaeabafc5516e95e8c7.png"
     },
     {
+      "address": "0x07E75874150b39d01ea83a1d428dA8B27d35Ed8e",
+      "name": "Netflix Inc Tokenized by Sailing",
+      "symbol": "NFLXs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x07e75874150b39d01ea83a1d428da8b27d35ed8e.png"
+    },
+    {
+      "address": "0x07d6a44D043ab26bF320dB5d80DfD604C4638B1F",
+      "name": "iShares Core S&P 500 ETF Tokenized by Sailing",
+      "symbol": "IVVs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x07d6a44d043ab26bf320db5d80dfd604c4638b1f.png"
+    },
+    {
+      "address": "0x089b8e73c8436da5349A8aAe35d47688005c6445",
+      "name": "Schwab Short-Term U.S. Treasury ETF Tokenized by Sailing",
+      "symbol": "SCHOs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x089b8e73c8436da5349a8aae35d47688005c6445.png"
+    },
+    {
+      "address": "0x0B7fa803416126E132CaB86dd2293Ef9fF0FE307",
+      "name": "The Walt Disney Company Tokenized by Sailing",
+      "symbol": "DISs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x0b7fa803416126e132cab86dd2293ef9ff0fe307.png"
+    },
+    {
+      "address": "0x0EA457086Dc6355E2619E230994B8BcAB6FD2eea",
+      "name": "Alibaba Group Holding Limited Tokenized by Sailing",
+      "symbol": "BABAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x0ea457086dc6355e2619e230994b8bcab6fd2eea.png"
+    },
+    {
       "address": "0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6",
       "name": "ICHI",
       "symbol": "ICHI",
       "decimals": 18,
       "chainId": 137,
       "logoURI": "https://cdn.oku.trade/logos/137/0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6.png"
+    },
+    {
+      "address": "0x1740Eb98BB2EF5EA21e9050f4C85da8f29a6eaE2",
+      "name": "Grupo Supervielle SA Tokenized by Sailing",
+      "symbol": "SUPVs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x1740eb98bb2ef5ea21e9050f4c85da8f29a6eae2.png"
+    },
+    {
+      "address": "0x200e00752Ee82FcA3d676BbeB15e355326F114D3",
+      "name": "iShares S&P GSCI Commodity-Indexed Trust Tokenized by Sailing",
+      "symbol": "GSGs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x200e00752ee82fca3d676bbeb15e355326f114d3.png"
+    },
+    {
+      "address": "0x24eB2022f35E82f530f0D49D66e6668dF06E379d",
+      "name": "United States Gasoline Fund Tokenized by Sailing",
+      "symbol": "UGAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x24eb2022f35e82f530f0d49d66e6668df06e379d.png"
     },
     {
       "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
@@ -389,6 +877,94 @@
       "logoURI": "https://cdn.oku.trade/logos/137/0x2ad2934d5bfb7912304754479dd1f096d5c807da.png"
     },
     {
+      "address": "0x2e7e6dBb6dE9dF0F537109aF17177C7bc538A334",
+      "name": "iShares Silver Trust Tokenized by Sailing",
+      "symbol": "SLVs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x2e7e6dbb6de9df0f537109af17177c7bc538a334.png"
+    },
+    {
+      "address": "0x3Bb33b51A00c836CE74Eb574530cb9f935BB253E",
+      "name": "ARK Innovation ETF Tokenized by Sailing",
+      "symbol": "ARKKs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x3bb33b51a00c836ce74eb574530cb9f935bb253e.png"
+    },
+    {
+      "address": "0x3a2AE441c90b287B1Cd48f3BE7d5E074684C5432",
+      "name": "CrowdStrike Holdings Inc Tokenized by Sailing",
+      "symbol": "CRWDs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x3a2ae441c90b287b1cd48f3be7d5e074684c5432.png"
+    },
+    {
+      "address": "0x3c35eBBD0943f25c75615a59a8ba04BD328bC99d",
+      "name": "Palantir Technologies Inc Tokenized by Sailing",
+      "symbol": "PLTRs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x3c35ebbd0943f25c75615a59a8ba04bd328bc99d.png"
+    },
+    {
+      "address": "0x4507A8276f51006E309C570C792b58337dFD39e5",
+      "name": "PIMCO Enhanced Short Maturity Active ETF Tokenized by Sailing",
+      "symbol": "MINTs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x4507a8276f51006e309c570c792b58337dfd39e5.png"
+    },
+    {
+      "address": "0x49F8E1371b95Bf2D82451e46d19B289Ab378dA27",
+      "name": "Comcast Corporation Tokenized by Sailing",
+      "symbol": "CMCSAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x49f8e1371b95bf2d82451e46d19b289ab378da27.png"
+    },
+    {
+      "address": "0x4D659F52a8fbe36B5cAD29642b17342D33fc9bCc",
+      "name": "Apple Inc Tokenized by Sailing",
+      "symbol": "AAPLs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x4d659f52a8fbe36b5cad29642b17342d33fc9bcc.png"
+    },
+    {
+      "address": "0x4Ea60a26ccAa22bC18dA01253eA2362B2eb7E31F",
+      "name": "Vanguard Total Stock Market ETF Tokenized by Sailing",
+      "symbol": "VTIs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x4ea60a26ccaa22bc18da01253ea2362b2eb7e31f.png"
+    },
+    {
+      "address": "0x509eb16C737E70E206E9159b4D791A16016cE5F9",
+      "name": "International Business Machines Corporation Tokenized by Sailing",
+      "symbol": "IBMs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x509eb16c737e70e206e9159b4d791a16016ce5f9.png"
+    },
+    {
+      "address": "0x5e738f59f72B9af2c5e522820be8fB0404D6c95D",
+      "name": "Cisco Systems Inc Tokenized by Sailing",
+      "symbol": "CSCOs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x5e738f59f72b9af2c5e522820be8fb0404d6c95d.png"
+    },
+    {
+      "address": "0x64E6418a921057E7A927AD2486CA6d9160ccF60E",
+      "name": "Goldman Sachs Physical Gold ETF Tokenized by Sailing",
+      "symbol": "AAAUs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x64e6418a921057e7a927ad2486ca6d9160ccf60e.png"
+    },
+    {
       "address": "0x692AC1e363ae34b6B489148152b12e2785a3d8d6",
       "name": "Polytrade (POS)",
       "symbol": "TRADE",
@@ -397,12 +973,292 @@
       "logoURI": "https://cdn.oku.trade/logos/137/0x692ac1e363ae34b6b489148152b12e2785a3d8d6.png"
     },
     {
+      "address": "0x6B95073b2205f29Ce6A50539d23fcc330858B3cc",
+      "name": "United States Oil Fund Tokenized by Sailing",
+      "symbol": "USOs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x6b95073b2205f29ce6a50539d23fcc330858b3cc.png"
+    },
+    {
+      "address": "0x6CD0ae8CeB6c40c20B3cF4aC5CBc160AB850cbf9",
+      "name": "Alphabet Inc Tokenized by Sailing",
+      "symbol": "GOOGLs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x6cd0ae8ceb6c40c20b3cf4ac5cbc160ab850cbf9.png"
+    },
+    {
+      "address": "0x6E08fE9aeA1054d09E71506459FD6E8dD2Cd8F07",
+      "name": "BlackRock Ultra Short-Term Bond ETF Tokenized by Sailing",
+      "symbol": "ICSHs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x6e08fe9aea1054d09e71506459fd6e8dd2cd8f07.png"
+    },
+    {
+      "address": "0x71b7E98CcfaEDD98C1ccBD17d5f36EF32BAC2131",
+      "name": "AMC Entertainment Holdings Inc Tokenized by Sailing",
+      "symbol": "AMCs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x71b7e98ccfaedd98c1ccbd17d5f36ef32bac2131.png"
+    },
+    {
+      "address": "0x72Cc76F0F2988df2868238547A533D2d92833C66",
+      "name": "Oracle Corporation Tokenized by Sailing",
+      "symbol": "ORCLs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x72cc76f0f2988df2868238547a533d2d92833c66.png"
+    },
+    {
+      "address": "0x79907FF90231ed411C26650A347e0289dEcD15ca",
+      "name": "Amazon.com Inc Tokenized by Sailing",
+      "symbol": "AMZNs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x79907ff90231ed411c26650a347e0289decd15ca.png"
+    },
+    {
+      "address": "0x7a32feA09BFDE29D90B53BB086fd7814930aB047",
+      "name": "Vanguard FTSE Developed Markets ETF Tokenized by Sailing",
+      "symbol": "VEAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x7a32fea09bfde29d90b53bb086fd7814930ab047.png"
+    },
+    {
+      "address": "0x8893C605e7fB11d297f92D12bba7a6a3E8bAf120",
+      "name": "Aberdeen Standard Physical Palladium Shares ETF Tokenized by Sailing",
+      "symbol": "PALLs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x8893c605e7fb11d297f92d12bba7a6a3e8baf120.png"
+    },
+    {
+      "address": "0x939975fCa7e40955D3f838a75976D2b06dE409a4",
+      "name": "Invesco DB Commodity Index Tracking Fund Tokenized by Sailing",
+      "symbol": "DBCs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x939975fca7e40955d3f838a75976d2b06de409a4.png"
+    },
+    {
+      "address": "0x97A7CA1a42589f266c7083f1B2D01Fdad1085851",
+      "name": "Invesco DB Agriculture Fund Tokenized by Sailing",
+      "symbol": "DBAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x97a7ca1a42589f266c7083f1b2d01fdad1085851.png"
+    },
+    {
+      "address": "0x980eC04Efb3e9bef359E1b75038412458aacf0Ce",
+      "name": "Tesla Inc Tokenized by Sailing",
+      "symbol": "TSLAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x980ec04efb3e9bef359e1b75038412458aacf0ce.png"
+    },
+    {
+      "address": "0x9E0055c624540448E139406B075F2e9E6fE5daA8",
+      "name": "McDonald's Tokenized by Sailing",
+      "symbol": "MCDs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0x9e0055c624540448e139406b075f2e9e6fe5daa8.png"
+    },
+    {
+      "address": "0xB61CB5154a9fA62b6F6BAE15d7b9191A31F75224",
+      "name": "MicroStrategy Inc Tokenized by Sailing",
+      "symbol": "MSTRs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xb61cb5154a9fa62b6f6bae15d7b9191a31f75224.png"
+    },
+    {
+      "address": "0xB70CBB8547169e6BF887995ea07936DE0B3f9395",
+      "name": "Adobe Inc Tokenized by Sailing",
+      "symbol": "ADBEs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xb70cbb8547169e6bf887995ea07936de0b3f9395.png"
+    },
+    {
       "address": "0xBFA35599c7AEbb0dAcE9b5aa3ca5f2a79624D8Eb",
       "name": "RETRO",
       "symbol": "RETRO",
       "decimals": 18,
       "chainId": 137,
       "logoURI": "https://cdn.oku.trade/logos/137/0xbfa35599c7aebb0dace9b5aa3ca5f2a79624d8eb.png"
+    },
+    {
+      "address": "0xBcB4cd70eB42BEaD1f544037BF2ADE296676d31d",
+      "name": "Advanced Micro Devices Inc Tokenized by Sailing",
+      "symbol": "AMDs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xbcb4cd70eb42bead1f544037bf2ade296676d31d.png"
+    },
+    {
+      "address": "0xBfa8D02cd02fb9015104bE7a0179BBD75dF63ABA",
+      "name": "Electronic Arts Inc Tokenized by Sailing",
+      "symbol": "EAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xbfa8d02cd02fb9015104be7a0179bbd75df63aba.png"
+    },
+    {
+      "address": "0xC1eaF64DA1DD5B624F8ef1cffEA027049C3c7049",
+      "name": "GameStop Corp Tokenized by Sailing",
+      "symbol": "GMEs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xc1eaf64da1dd5b624f8ef1cffea027049c3c7049.png"
+    },
+    {
+      "address": "0xC438D5890d352ab8a67499ABf6880Eaf69177401",
+      "name": "Meta Platforms Inc Tokenized by Sailing",
+      "symbol": "METAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xc438d5890d352ab8a67499abf6880eaf69177401.png"
+    },
+    {
+      "address": "0xC6EDD617756a71001118Ec69fbe2df50Bf85dF6F",
+      "name": "Live Nation Entertainment Inc Tokenized by Sailing",
+      "symbol": "LYVs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xc6edd617756a71001118ec69fbe2df50bf85df6f.png"
+    },
+    {
+      "address": "0xCD729989b5F9220A40d58537b6cbEEb61185b995",
+      "name": "Sony Group Corporation Tokenized by Sailing",
+      "symbol": "SONYs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xcd729989b5f9220a40d58537b6cbeeb61185b995.png"
+    },
+    {
+      "address": "0xCE2A1b1A77cEB8e48459124b90f688354239B5f5",
+      "name": "Dynatrace Inc Tokenized by Sailing",
+      "symbol": "DTs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xce2a1b1a77ceb8e48459124b90f688354239b5f5.png"
+    },
+    {
+      "address": "0xE407fF7cC8eAb24A2670E17E8488e4821bc45471",
+      "name": "Invesco QQQ Trust Tokenized by Sailing",
+      "symbol": "QQQs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xe407ff7cc8eab24a2670e17e8488e4821bc45471.png"
+    },
+    {
+      "address": "0xE9B80cAD988046335D176Bef8D91a5b17e12B56d",
+      "name": "United States Brent Oil Fund Tokenized by Sailing",
+      "symbol": "BNOs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xe9b80cad988046335d176bef8d91a5b17e12b56d.png"
+    },
+    {
+      "address": "0xE9aA8476C19B4D1137B661f7b8C1B9899A20696B",
+      "name": "Ginkgo Bioworks Inc Tokenized by Sailing",
+      "symbol": "DNAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xe9aa8476c19b4d1137b661f7b8c1b9899a20696b.png"
+    },
+    {
+      "address": "0xF0Ac0dF14265f5b99D97c6A416A120fD516e48f2",
+      "name": "Roku Inc Tokenized by Sailing",
+      "symbol": "ROKUs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xf0ac0df14265f5b99d97c6a416a120fd516e48f2.png"
+    },
+    {
+      "address": "0xF5527259ecA5327a053Aa7FF3AF85C933cF0f22D",
+      "name": "Nokia Corporation Tokenized by Sailing",
+      "symbol": "NOKs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xf5527259eca5327a053aa7ff3af85c933cf0f22d.png"
+    },
+    {
+      "address": "0xF7a10F5177AaD02a8DaF7A7EBDD918ed5d14FEE0",
+      "name": "Airbnb Inc Tokenized by Sailing",
+      "symbol": "ABNBs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xf7a10f5177aad02a8daf7a7ebdd918ed5d14fee0.png"
+    },
+    {
+      "address": "0xd82955acB89a2524dC934B4D008DA5ed95ce2050",
+      "name": "Nvidia Corporation Tokenized by Sailing",
+      "symbol": "NVDAs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xd82955acb89a2524dc934b4d008da5ed95ce2050.png"
+    },
+    {
+      "address": "0xd8d2860AEb89CaaA86F55eE1Faa1917A8ec7E545",
+      "name": "DLocal Ltd Tokenized by Sailing",
+      "symbol": "DLOs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xd8d2860aeb89caaa86f55ee1faa1917a8ec7e545.png"
+    },
+    {
+      "address": "0xda27E9FbFeb2468900EA14A14C1d5E39d9F31FA2",
+      "name": "JPMorgan Ultra-Short Income ETF Tokenized by Sailing",
+      "symbol": "JPSTs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xda27e9fbfeb2468900ea14a14c1d5e39d9f31fa2.png"
+    },
+    {
+      "address": "0xe351FC97233167d9323D1C5071BfB9E6FF534939",
+      "name": "Intel Corporation Tokenized by Sailing",
+      "symbol": "INTCs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xe351fc97233167d9323d1c5071bfb9e6ff534939.png"
+    },
+    {
+      "address": "0xeE32183987A398a3D5ad97E2cad879f13F69C630",
+      "name": "Vanguard S&P 500 ETF Tokenized by Sailing",
+      "symbol": "VOOs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xee32183987a398a3d5ad97e2cad879f13f69c630.png"
+    },
+    {
+      "address": "0xf59A9FA0Aa2E506430ddCF35Acd9A269374f9dbb",
+      "name": "SPDR S&P 500 ETF Trust Tokenized by Sailing",
+      "symbol": "SPYs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xf59a9fa0aa2e506430ddcf35acd9a269374f9dbb.png"
+    },
+    {
+      "address": "0xfAbC6F182c035aC93237197b6c860e306A5A2bE1",
+      "name": "Warner Bros. Discovery Inc Tokenized by Sailing",
+      "symbol": "WBDs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xfabc6f182c035ac93237197b6c860e306a5a2be1.png"
+    },
+    {
+      "address": "0xff60a9A00314681069C8Fc3412fdF6Bb76433B09",
+      "name": "Microsoft Corporation Tokenized by Sailing",
+      "symbol": "MSFTs",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://cdn.oku.trade/logos/137/0xff60a9a00314681069c8fc3412fdf6bb76433b09.png"
     },
     {
       "address": "0x2fb960611bdC322A9a4A994252658Cae9fe2eeA1",
@@ -749,6 +1605,134 @@
       "logoURI": "https://cdn.oku.trade/logos/21000000/0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3.png"
     },
     {
+      "address": "0x019293eDC7A277F8879EC51A59E0Ffe415f6120e",
+      "name": "Invesco QQQ Trust Tokenized by Sailing",
+      "symbol": "QQQs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x019293edc7a277f8879ec51a59e0ffe415f6120e.png"
+    },
+    {
+      "address": "0x1e01aE049Bcb76ec91aa59e11b84a01375cB19b0",
+      "name": "Ginkgo Bioworks Inc Tokenized by Sailing",
+      "symbol": "DNAs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x1e01ae049bcb76ec91aa59e11b84a01375cb19b0.png"
+    },
+    {
+      "address": "0x2E4763AdBEe00D5eB3089ec25973599c0e62dD07",
+      "name": "ARK Innovation ETF Tokenized by Sailing",
+      "symbol": "ARKKs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x2e4763adbee00d5eb3089ec25973599c0e62dd07.png"
+    },
+    {
+      "address": "0x57c1e6001519D2C7FcEE64a8e03e1bDba7A1716F",
+      "name": "Apple Inc Tokenized by Sailing",
+      "symbol": "AAPLs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x57c1e6001519d2c7fcee64a8e03e1bdba7a1716f.png"
+    },
+    {
+      "address": "0x75B5DACEc8DACcb260eA47549aE882513A21CE01",
+      "name": "SPDR S&P 500 ETF Trust Tokenized by Sailing",
+      "symbol": "SPYs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x75b5dacec8daccb260ea47549ae882513a21ce01.png"
+    },
+    {
+      "address": "0x79E2174f64286Bb92c8BD00d0D8A126eAc664c27",
+      "name": "Airbnb Inc Tokenized by Sailing",
+      "symbol": "ABNBs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x79e2174f64286bb92c8bd00d0d8a126eac664c27.png"
+    },
+    {
+      "address": "0x7d0e7d4617B7B1a4D335e7E6Fef2f0F98Fb8D6D9",
+      "name": "MicroStrategy Inc Tokenized by Sailing",
+      "symbol": "MSTRs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x7d0e7d4617b7b1a4d335e7e6fef2f0f98fb8d6d9.png"
+    },
+    {
+      "address": "0x7f6b23782DC290C6758E6014e6F512E1b46f07e6",
+      "name": "The Walt Disney Company Tokenized by Sailing",
+      "symbol": "DISs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x7f6b23782dc290c6758e6014e6f512e1b46f07e6.png"
+    },
+    {
+      "address": "0x81B841D336D984233353420d172309f321EfBc02",
+      "name": "Meta Platforms Inc Tokenized by Sailing",
+      "symbol": "METAs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0x81b841d336d984233353420d172309f321efbc02.png"
+    },
+    {
+      "address": "0xA265653185Ed26a27e93092c458b5C6a6aEF078a",
+      "name": "AMC Entertainment Holdings Inc Tokenized by Sailing",
+      "symbol": "AMCs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0xa265653185ed26a27e93092c458b5c6a6aef078a.png"
+    },
+    {
+      "address": "0xA78Fb2b64Ce2Fb8bBe46968cf961C5Be6eB12924",
+      "name": "Goldman Sachs Physical Gold ETF Tokenized by Sailing",
+      "symbol": "AAAUs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0xa78fb2b64ce2fb8bbe46968cf961c5be6eb12924.png"
+    },
+    {
+      "address": "0xC777b949c0889094BC9A241BCFE8e9492b18824f",
+      "name": "Amazon.com Inc Tokenized by Sailing",
+      "symbol": "AMZNs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0xc777b949c0889094bc9a241bcfe8e9492b18824f.png"
+    },
+    {
+      "address": "0xD07dd056c2C2073565C992B4aC2321b6A2e4a112",
+      "name": "Grupo Supervielle SA Tokenized by Sailing",
+      "symbol": "SUPVs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0xd07dd056c2c2073565c992b4ac2321b6a2e4a112.png"
+    },
+    {
+      "address": "0xD9aEA8D7712aA5F54EDA0982211f38ecDDa22BA1",
+      "name": "GameStop Corp Tokenized by Sailing",
+      "symbol": "GMEs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0xd9aea8d7712aa5f54eda0982211f38ecdda22ba1.png"
+    },
+    {
+      "address": "0xf69eadAd0A7cE0aD62ac7AdB16338f55Fa5aEdbD",
+      "name": "DLocal Ltd Tokenized by Sailing",
+      "symbol": "DLOs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0xf69eadad0a7ce0ad62ac7adb16338f55fa5aedbd.png"
+    },
+    {
+      "address": "0xfb7a9dea566381c912aC3a221595F6559bFCDEc6",
+      "name": "Tesla Inc Tokenized by Sailing",
+      "symbol": "TSLAs",
+      "decimals": 18,
+      "chainId": 2222,
+      "logoURI": "https://cdn.oku.trade/logos/2222/0xfb7a9dea566381c912ac3a221595f6559bfcdec6.png"
+    },
+    {
       "address": "0x02F294cC9Ceb2c80FbA3fD779e17FE191Cc360C4",
       "name": "BTC Deposited token",
       "symbol": "ArtBTC",
@@ -829,12 +1813,52 @@
       "logoURI": "https://cdn.oku.trade/logos/288/0x52e4d8989fa8b3e1c06696e7b16def5d7707a0d1.png"
     },
     {
+      "address": "0x0837f2C7763B77d7b3D1DE8616edFC42a05d3aC6",
+      "name": "Apple Inc Tokenized by Sailing",
+      "symbol": "AAPLs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x0837f2c7763b77d7b3d1de8616edfc42a05d3ac6.png"
+    },
+    {
+      "address": "0x1BA24aFC90d41E86F7F722659F68F4b176e3116B",
+      "name": "The Walt Disney Company Tokenized by Sailing",
+      "symbol": "DISs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x1ba24afc90d41e86f7f722659f68f4b176e3116b.png"
+    },
+    {
       "address": "0x3150e390bc96F1b4a05cf5183B8E7Bdb68566954",
       "name": "Asami Core",
       "symbol": "ASAMI",
       "decimals": 18,
       "chainId": 30,
       "logoURI": "https://cdn.oku.trade/logos/30/0x3150e390bc96f1b4a05cf5183b8e7bdb68566954.png"
+    },
+    {
+      "address": "0x47a663C082926d0d913cAcB89240c3f4bc409a88",
+      "name": "Nvidia Corporation Tokenized by Sailing",
+      "symbol": "NVDAs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x47a663c082926d0d913cacb89240c3f4bc409a88.png"
+    },
+    {
+      "address": "0x4e630f665A5e911EbA14b4e850375613D6A05C06",
+      "name": "AMC Entertainment Holdings Inc Tokenized by Sailing",
+      "symbol": "AMCs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x4e630f665a5e911eba14b4e850375613d6a05c06.png"
+    },
+    {
+      "address": "0x5b0c93ED5e3Ab653CC5d1dD850c4bF8C0A1260c5",
+      "name": "MicroStrategy Inc Tokenized by Sailing",
+      "symbol": "MSTRs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x5b0c93ed5e3ab653cc5d1dd850c4bf8c0a1260c5.png"
     },
     {
       "address": "0x685d4Fd90cc6e688C19dF8Eea4cF0b0Dc5A97170",
@@ -845,6 +1869,14 @@
       "logoURI": "https://cdn.oku.trade/logos/30/0x685d4fd90cc6e688c19df8eea4cf0b0dc5a97170.png"
     },
     {
+      "address": "0x6cEED18bCEdB2e29cA8dD59C7874d98eaEC5ab3b",
+      "name": "Tesla Inc Tokenized by Sailing",
+      "symbol": "TSLAs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x6ceed18bcedb2e29ca8dd59c7874d98eaec5ab3b.png"
+    },
+    {
       "address": "0x74c9f2b00581F1B11AA7ff05aa9F608B7389De67",
       "name": "Bridged USDC",
       "symbol": "USDC.e",
@@ -853,12 +1885,92 @@
       "logoURI": "https://cdn.oku.trade/logos/30/0x74c9f2b00581f1b11aa7ff05aa9f608b7389de67.png"
     },
     {
+      "address": "0x91B26F71D8b6F78b7BdaDd557c20727232C4bF2c",
+      "name": "SPDR S&P 500 ETF Trust Tokenized by Sailing",
+      "symbol": "SPYs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x91b26f71d8b6f78b7bdadd557c20727232c4bf2c.png"
+    },
+    {
       "address": "0xAf368c91793CB22739386DFCbBb2F1A9e4bCBeBf",
       "name": "USDT",
       "symbol": "USDT",
       "decimals": 6,
       "chainId": 30,
       "logoURI": "https://cdn.oku.trade/logos/30/0xaf368c91793cb22739386dfcbbb2f1a9e4bcbebf.png"
+    },
+    {
+      "address": "0xB314095f4Efd9cb0e800Fc72a85878d9E3a4109B",
+      "name": "Invesco QQQ Trust Tokenized by Sailing",
+      "symbol": "QQQs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xb314095f4efd9cb0e800fc72a85878d9e3a4109b.png"
+    },
+    {
+      "address": "0xDC661977F72973601621247B1F3c5E9eA624Fd38",
+      "name": "Grupo Supervielle SA Tokenized by Sailing",
+      "symbol": "SUPVs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xdc661977f72973601621247b1f3c5e9ea624fd38.png"
+    },
+    {
+      "address": "0xDEde6fa58829D1d7cf03a2D32F4317588a6a7683",
+      "name": "GameStop Corp Tokenized by Sailing",
+      "symbol": "GMEs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xdede6fa58829d1d7cf03a2d32f4317588a6a7683.png"
+    },
+    {
+      "address": "0xDF9A2DD609334a9c4a5E7abD6c333e6C8a724875",
+      "name": "Ginkgo Bioworks Inc Tokenized by Sailing",
+      "symbol": "DNAs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xdf9a2dd609334a9c4a5e7abd6c333e6c8a724875.png"
+    },
+    {
+      "address": "0xDf12A17abf91C225e8074D2C38e9459A109DB82E",
+      "name": "Amazon.com Inc Tokenized by Sailing",
+      "symbol": "AMZNs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xdf12a17abf91c225e8074d2c38e9459a109db82e.png"
+    },
+    {
+      "address": "0xb880773D2a4B2b2cD49E23AE3633d18644448C5D",
+      "name": "Airbnb Inc Tokenized by Sailing",
+      "symbol": "ABNBs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xb880773d2a4b2b2cd49e23ae3633d18644448c5d.png"
+    },
+    {
+      "address": "0xd9474AAa1DE26e2F2F6891e33C860C99E9D4c8A8",
+      "name": "DLocal Ltd Tokenized by Sailing",
+      "symbol": "DLOs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xd9474aaa1de26e2f2f6891e33c860c99e9d4c8a8.png"
+    },
+    {
+      "address": "0xdB5A8DA127B061b3f4244F1C34EaFfFff951E1Ce",
+      "name": "Goldman Sachs Physical Gold ETF Tokenized by Sailing",
+      "symbol": "AAAUs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xdb5a8da127b061b3f4244f1c34eafffff951e1ce.png"
+    },
+    {
+      "address": "0xdE35d352E479643Dff75E2291144076Ce76497FB",
+      "name": "Meta Platforms Inc Tokenized by Sailing",
+      "symbol": "METAs",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xde35d352e479643dff75e2291144076ce76497fb.png"
     },
     {
       "address": "0x838A66F841DD5148475a8918db0732c239499a03",
@@ -971,6 +2083,14 @@
       "decimals": 18,
       "chainId": 42161,
       "logoURI": "https://cdn.oku.trade/logos/42161/0x3d2bd0e15829aa5c362a4144fdf4a1112fa29b5c.png"
+    },
+    {
+      "address": "0x8e32B5499E7c2Bd1AF7204C2EE4F7e0b0015e6BA",
+      "name": "Apple Inc Tokenized by Sailing",
+      "symbol": "AAPLs",
+      "decimals": 18,
+      "chainId": 42161,
+      "logoURI": "https://cdn.oku.trade/logos/42161/0x8e32b5499e7c2bd1af7204c2ee4f7e0b0015e6ba.png"
     },
     {
       "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
@@ -1381,12 +2501,28 @@
       "logoURI": "https://cdn.oku.trade/logos/81457/0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad.png"
     },
     {
+      "address": "0x004975F0005b1e2E78c29EAF8434794dC9C52c30",
+      "name": "Goldman Sachs Physical Gold ETF Tokenized by Sailing",
+      "symbol": "AAAUs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x004975f0005b1e2e78c29eaf8434794dc9c52c30.png"
+    },
+    {
       "address": "0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938",
       "name": "USDz",
       "symbol": "USDz",
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0x04d5ddf5f3a8939889f11e97f8c4bb48317f1938.png"
+    },
+    {
+      "address": "0x0dF2783bf1Fb3CCA64F3756e3c22041892F0AA15",
+      "name": "Dynatrace Inc Tokenized by Sailing",
+      "symbol": "DTs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x0df2783bf1fb3cca64f3756e3c22041892f0aa15.png"
     },
     {
       "address": "0x13741C5dF9aB03E7Aa9Fb3Bf1f714551dD5A5F8a",
@@ -1403,6 +2539,14 @@
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0x179ea588a3443270d38983940cbffd357b919240.png"
+    },
+    {
+      "address": "0x1BA24aFC90d41E86F7F722659F68F4b176e3116B",
+      "name": "SPDR S&P 500 ETF Trust Tokenized by Sailing",
+      "symbol": "SPYs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x1ba24afc90d41e86f7f722659f68f4b176e3116b.png"
     },
     {
       "address": "0x1Dc7EDCf1368285E77FDB2E9bFBA56F48ec317bd",
@@ -1435,6 +2579,14 @@
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0x263337143b832b1e274f9e047cecc42305a2e8d2.png"
+    },
+    {
+      "address": "0x266ebBc435Ce441805a8E02db2c09bB89254Ce5B",
+      "name": "Amazon.com Inc Tokenized by Sailing",
+      "symbol": "AMZNs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x266ebbc435ce441805a8e02db2c09bb89254ce5b.png"
     },
     {
       "address": "0x2ED49c7CfD45018a80651C0D5637a5D42a6948cb",
@@ -1485,6 +2637,22 @@
       "logoURI": "https://cdn.oku.trade/logos/8453/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825.png"
     },
     {
+      "address": "0x5511c1176f1CaB491F849B260E7A3b1d8BcE2323",
+      "name": "McDonald's Tokenized by Sailing",
+      "symbol": "MCDs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x5511c1176f1cab491f849b260e7a3b1d8bce2323.png"
+    },
+    {
+      "address": "0x61C1500124fFe148387FFf2CDCD8426bC4cdD8C5",
+      "name": "Ginkgo Bioworks Inc Tokenized by Sailing",
+      "symbol": "DNAs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x61c1500124ffe148387fff2cdcd8426bc4cdd8c5.png"
+    },
+    {
       "address": "0x62d481Eaeb30985B886F8f5B7BdF3a8386c3bC27",
       "name": "faina",
       "symbol": "FAINA",
@@ -1525,12 +2693,36 @@
       "logoURI": "https://cdn.oku.trade/logos/8453/0x768be13e1680b5ebe0024c42c896e3db59ec0149.png"
     },
     {
+      "address": "0x76c97E267239eb57E0f6a257A9FBE83f22dbd118",
+      "name": "Grupo Supervielle SA Tokenized by Sailing",
+      "symbol": "SUPVs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x76c97e267239eb57e0f6a257a9fbe83f22dbd118.png"
+    },
+    {
+      "address": "0x7CF796f24e5EDE0E2bB08F1563E5ca82d07Df4ce",
+      "name": "Apple Inc Tokenized by Sailing",
+      "symbol": "AAPLs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x7cf796f24e5ede0e2bb08f1563e5ca82d07df4ce.png"
+    },
+    {
       "address": "0x7dBd14115bAf4240AAb8C4Ef31BF71F76c708420",
       "name": "Wrapped UKRE",
       "symbol": "wUKRE",
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0x7dbd14115baf4240aab8c4ef31bf71f76c708420.png"
+    },
+    {
+      "address": "0x80d927A1E722E394c3eF6d26D3ab14CB95B13446",
+      "name": "Tesla Inc Tokenized by Sailing",
+      "symbol": "TSLAs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x80d927a1e722e394c3ef6d26d3ab14cb95b13446.png"
     },
     {
       "address": "0x8592354Fe71BC73544602227Edf5Bf59A500d9d2",
@@ -1541,12 +2733,28 @@
       "logoURI": "https://cdn.oku.trade/logos/8453/0x8592354fe71bc73544602227edf5bf59a500d9d2.png"
     },
     {
+      "address": "0x971e007444126Cc0939c658405B4D1ba4Dd6f635",
+      "name": "Meta Platforms Inc Tokenized by Sailing",
+      "symbol": "METAs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0x971e007444126cc0939c658405b4d1ba4dd6f635.png"
+    },
+    {
       "address": "0x9a26F5433671751C3276a065f57e5a02D2817973",
       "name": "Keyboard Cat",
       "symbol": "KEYCAT",
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0x9a26f5433671751c3276a065f57e5a02d2817973.png"
+    },
+    {
+      "address": "0xA66F83f38043ebE4D51Fc6A6292B06F310A6a11A",
+      "name": "AMC Entertainment Holdings Inc Tokenized by Sailing",
+      "symbol": "AMCs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xa66f83f38043ebe4d51fc6a6292b06f310a6a11a.png"
     },
     {
       "address": "0xAa6Cccdce193698D33deb9ffd4be74eAa74c4898",
@@ -1573,6 +2781,14 @@
       "logoURI": "https://cdn.oku.trade/logos/8453/0xc8f716028344b0bc959878a88848108dd37fdaa3.png"
     },
     {
+      "address": "0xCd8e3131Af0b438eE95E583615FB21cF84148146",
+      "name": "GameStop Corp Tokenized by Sailing",
+      "symbol": "GMEs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xcd8e3131af0b438ee95e583615fb21cf84148146.png"
+    },
+    {
       "address": "0xDCEFd8C8fCc492630B943ABcaB3429F12Ea9Fea2",
       "name": "KlimaDAO",
       "symbol": "KLIMA",
@@ -1597,6 +2813,14 @@
       "logoURI": "https://cdn.oku.trade/logos/8453/0xf1b4ddf712e108cf43711b1c39f2fddb0d5ce243.png"
     },
     {
+      "address": "0xF4aD5a6Aa3d66aa2730752f66e795748c1CEee39",
+      "name": "The Walt Disney Company Tokenized by Sailing",
+      "symbol": "DISs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xf4ad5a6aa3d66aa2730752f66e795748c1ceee39.png"
+    },
+    {
       "address": "0xFF8adeC2221f9f4D8dfbAFa6B9a297d17603493D",
       "name": "WELL (Old)",
       "symbol": "WELL",
@@ -1613,12 +2837,28 @@
       "logoURI": "https://cdn.oku.trade/logos/8453/0xfef2d7b013b88fec2bfe4d2fee0aeb719af73481.png"
     },
     {
+      "address": "0xaCBf591209A7315c8cD5cb2Fa0151F6a37c98153",
+      "name": "DLocal Ltd Tokenized by Sailing",
+      "symbol": "DLOs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xacbf591209a7315c8cd5cb2fa0151f6a37c98153.png"
+    },
+    {
       "address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
       "name": "Venice Token",
       "symbol": "VVV",
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf.png"
+    },
+    {
+      "address": "0xb880773D2a4B2b2cD49E23AE3633d18644448C5D",
+      "name": "Invesco QQQ Trust Tokenized by Sailing",
+      "symbol": "QQQs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xb880773d2a4b2b2cd49e23ae3633d18644448c5d.png"
     },
     {
       "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
@@ -1693,12 +2933,36 @@
       "logoURI": "https://cdn.oku.trade/logos/8453/0xdf00fde26a6819507649904ca52fe5062ef75ba7.png"
     },
     {
+      "address": "0xe0Cd4F3a33f9966c8654f6B5bc64f6942370D88c",
+      "name": "MicroStrategy Inc Tokenized by Sailing",
+      "symbol": "MSTRs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xe0cd4f3a33f9966c8654f6b5bc64f6942370d88c.png"
+    },
+    {
+      "address": "0xe1988610f507914251e9DA39C0Db31f0110F551d",
+      "name": "ARK Innovation ETF Tokenized by Sailing",
+      "symbol": "ARKKs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xe1988610f507914251e9da39c0db31f0110f551d.png"
+    },
+    {
       "address": "0xebfF2db643Cf955247339c8c6bCD8406308ca437",
       "name": "ChompCoin",
       "symbol": "CHOMP",
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0xebff2db643cf955247339c8c6bcd8406308ca437.png"
+    },
+    {
+      "address": "0xf4Af914b3bBe1952c501edfC45982c5A352D2e7a",
+      "name": "Airbnb Inc Tokenized by Sailing",
+      "symbol": "ABNBs",
+      "decimals": 18,
+      "chainId": 8453,
+      "logoURI": "https://cdn.oku.trade/logos/8453/0xf4af914b3bbe1952c501edfc45982c5a352d2e7a.png"
     },
     {
       "address": "0xfc6E858c43CA492934BdeF2A7fCBa80380279373",
@@ -1715,6 +2979,430 @@
       "decimals": 6,
       "chainId": 8453,
       "logoURI": "https://cdn.oku.trade/logos/8453/0xfde4c96c8593536e31f229ea8f37b2ada2699bb2.png"
+    },
+    {
+      "address": "0x015461a28351bc444Ddb236e1C516B3036425B5F",
+      "name": "Microsoft Corporation Tokenized by Sailing",
+      "symbol": "MSFTs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x015461a28351bc444ddb236e1c516b3036425b5f.png"
+    },
+    {
+      "address": "0x023063547B3601207304EEdc5e6C6F9397DA161d",
+      "name": "Goldman Sachs Physical Gold ETF Tokenized by Sailing",
+      "symbol": "AAAUs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x023063547b3601207304eedc5e6c6f9397da161d.png"
+    },
+    {
+      "address": "0x0317F9f077d90193871A4Ee1F1681e24c4A2671C",
+      "name": "AMC Entertainment Holdings Inc Tokenized by Sailing",
+      "symbol": "AMCs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x0317f9f077d90193871a4ee1f1681e24c4a2671c.png"
+    },
+    {
+      "address": "0x0694ceF4AD2e85c2D9DE7D2dcdE28696da18D8F9",
+      "name": "iShares S&P GSCI Commodity-Indexed Trust Tokenized by Sailing",
+      "symbol": "GSGs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x0694cef4ad2e85c2d9de7d2dcde28696da18d8f9.png"
+    },
+    {
+      "address": "0x0b0aa577dc39dCF5b3300a01AeAE74185CcbFca1",
+      "name": "Vanguard S&P 500 ETF Tokenized by Sailing",
+      "symbol": "VOOs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x0b0aa577dc39dcf5b3300a01aeae74185ccbfca1.png"
+    },
+    {
+      "address": "0x10047813f153a23caAc767825BECB6320153C544",
+      "name": "MicroStrategy Inc Tokenized by Sailing",
+      "symbol": "MSTRs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x10047813f153a23caac767825becb6320153c544.png"
+    },
+    {
+      "address": "0x1091DbEeACE2f8978456E1AAd863593a5ee00Abf",
+      "name": "Alibaba Group Holding Limited Tokenized by Sailing",
+      "symbol": "BABAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x1091dbeeace2f8978456e1aad863593a5ee00abf.png"
+    },
+    {
+      "address": "0x1D5F4fAf767F8fF9E983CdE8ACaC12a5b9b7C119",
+      "name": "United States Brent Oil Fund Tokenized by Sailing",
+      "symbol": "BNOs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x1d5f4faf767f8ff9e983cde8acac12a5b9b7c119.png"
+    },
+    {
+      "address": "0x1e01aE049Bcb76ec91aa59e11b84a01375cB19b0",
+      "name": "Netflix Inc Tokenized by Sailing",
+      "symbol": "NFLXs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x1e01ae049bcb76ec91aa59e11b84a01375cb19b0.png"
+    },
+    {
+      "address": "0x2E4763AdBEe00D5eB3089ec25973599c0e62dD07",
+      "name": "Tesla Inc Tokenized by Sailing",
+      "symbol": "TSLAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x2e4763adbee00d5eb3089ec25973599c0e62dd07.png"
+    },
+    {
+      "address": "0x35fE59dd1485C3AA141951b6Accc3a18C9E55363",
+      "name": "BlackRock Ultra Short-Term Bond ETF Tokenized by Sailing",
+      "symbol": "ICSHs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x35fe59dd1485c3aa141951b6accc3a18c9e55363.png"
+    },
+    {
+      "address": "0x3dC2bfe52c5de2aA17C3e89Ac816ddDeF24f0736",
+      "name": "Nvidia Corporation Tokenized by Sailing",
+      "symbol": "NVDAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x3dc2bfe52c5de2aa17c3e89ac816dddef24f0736.png"
+    },
+    {
+      "address": "0x4572C9119324C5D3822841088c45A5239eD8D190",
+      "name": "International Business Machines Corporation Tokenized by Sailing",
+      "symbol": "IBMs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x4572c9119324c5d3822841088c45a5239ed8d190.png"
+    },
+    {
+      "address": "0x46B129C4F6814dc0e887FfcCE94fF033cE75DeB2",
+      "name": "Invesco DB Agriculture Fund Tokenized by Sailing",
+      "symbol": "DBAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x46b129c4f6814dc0e887ffcce94ff033ce75deb2.png"
+    },
+    {
+      "address": "0x470d3B054c7Cac75D1e498A63aF57C4eE836e085",
+      "name": "Intel Corporation Tokenized by Sailing",
+      "symbol": "INTCs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x470d3b054c7cac75d1e498a63af57c4ee836e085.png"
+    },
+    {
+      "address": "0x4898060E6344E1D0736604C8B8d35d94ee2D67B4",
+      "name": "Aberdeen Standard Physical Palladium Shares ETF Tokenized by Sailing",
+      "symbol": "PALLs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x4898060e6344e1d0736604c8b8d35d94ee2d67b4.png"
+    },
+    {
+      "address": "0x4e2Ece9446528FFE12cc4CA3728Da2eE2245E51f",
+      "name": "Alphabet Inc Tokenized by Sailing",
+      "symbol": "GOOGLs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x4e2ece9446528ffe12cc4ca3728da2ee2245e51f.png"
+    },
+    {
+      "address": "0x500785328FbDCefd9A1300DaA6426B3a960049AE",
+      "name": "Live Nation Entertainment Inc Tokenized by Sailing",
+      "symbol": "LYVs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x500785328fbdcefd9a1300daa6426b3a960049ae.png"
+    },
+    {
+      "address": "0x5511c1176f1CaB491F849B260E7A3b1d8BcE2323",
+      "name": "Schwab Short-Term U.S. Treasury ETF Tokenized by Sailing",
+      "symbol": "SCHOs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x5511c1176f1cab491f849b260e7a3b1d8bce2323.png"
+    },
+    {
+      "address": "0x5A6FE4b356F75271599259CA7F17B096B044228d",
+      "name": "Sony Group Corporation Tokenized by Sailing",
+      "symbol": "SONYs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x5a6fe4b356f75271599259ca7f17b096b044228d.png"
+    },
+    {
+      "address": "0x5a2C8F9188B5D01ee8ad86db565E104029c4FB23",
+      "name": "Vanguard Total Stock Market ETF Tokenized by Sailing",
+      "symbol": "VTIs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x5a2c8f9188b5d01ee8ad86db565e104029c4fb23.png"
+    },
+    {
+      "address": "0x5b0c93ED5e3Ab653CC5d1dD850c4bF8C0A1260c5",
+      "name": "McDonald's Tokenized by Sailing",
+      "symbol": "MCDs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x5b0c93ed5e3ab653cc5d1dd850c4bf8c0a1260c5.png"
+    },
+    {
+      "address": "0x5bd829999B1839F9e5238cdFF23f669d5099ceE9",
+      "name": "ARK Innovation ETF Tokenized by Sailing",
+      "symbol": "ARKKs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x5bd829999b1839f9e5238cdff23f669d5099cee9.png"
+    },
+    {
+      "address": "0x75a0952A90c2c9095938888E1C69e16e0DBb1894",
+      "name": "Electronic Arts Inc Tokenized by Sailing",
+      "symbol": "EAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x75a0952a90c2c9095938888e1c69e16e0dbb1894.png"
+    },
+    {
+      "address": "0x7793BD5CCaF4B1628a7790e80E5c468c3e5d4a77",
+      "name": "iShares Core S&P 500 ETF Tokenized by Sailing",
+      "symbol": "IVVs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x7793bd5ccaf4b1628a7790e80e5c468c3e5d4a77.png"
+    },
+    {
+      "address": "0x82D1669fCd2701767C05B33a9C5657B590f0A2a0",
+      "name": "Invesco DB Commodity Index Tracking Fund Tokenized by Sailing",
+      "symbol": "DBCs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x82d1669fcd2701767c05b33a9c5657b590f0a2a0.png"
+    },
+    {
+      "address": "0x8c20d3E7259d5E4bFf1da04D9288AdBBfD4ffA8d",
+      "name": "JPMorgan Ultra-Short Income ETF Tokenized by Sailing",
+      "symbol": "JPSTs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x8c20d3e7259d5e4bff1da04d9288adbbfd4ffa8d.png"
+    },
+    {
+      "address": "0x8f8fC6D3C60A641Fb8550B1Ce0A095b6d5c906e4",
+      "name": "Palantir Technologies Inc Tokenized by Sailing",
+      "symbol": "PLTRs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x8f8fc6d3c60a641fb8550b1ce0a095b6d5c906e4.png"
+    },
+    {
+      "address": "0x912Cd5ef2B2aC93308998Cd58cb63A7D96423Ede",
+      "name": "Vanguard FTSE Developed Markets ETF Tokenized by Sailing",
+      "symbol": "VEAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x912cd5ef2b2ac93308998cd58cb63a7d96423ede.png"
+    },
+    {
+      "address": "0x919AFf9DDC512565A27FBe1da35385955d2499A0",
+      "name": "Amazon.com Inc Tokenized by Sailing",
+      "symbol": "AMZNs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x919aff9ddc512565a27fbe1da35385955d2499a0.png"
+    },
+    {
+      "address": "0x96b806e1E324eaa42EF83A77959F9cCc768486f2",
+      "name": "SPDR S&P 500 ETF Trust Tokenized by Sailing",
+      "symbol": "SPYs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0x96b806e1e324eaa42ef83a77959f9ccc768486f2.png"
+    },
+    {
+      "address": "0xA94052a206ADbAA0A3bb3239BD7c7184201F49d3",
+      "name": "Grupo Supervielle SA Tokenized by Sailing",
+      "symbol": "SUPVs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xa94052a206adbaa0a3bb3239bd7c7184201f49d3.png"
+    },
+    {
+      "address": "0xB1FaCA3ff23f9831ae1B8dD64F884359C4bA09CA",
+      "name": "Advanced Micro Devices Inc Tokenized by Sailing",
+      "symbol": "AMDs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xb1faca3ff23f9831ae1b8dd64f884359c4ba09ca.png"
+    },
+    {
+      "address": "0xB72AEC6fb6cb0Cbdd7d73C7Bc60E01780392FDBC",
+      "name": "Warner Bros. Discovery Inc Tokenized by Sailing",
+      "symbol": "WBDs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xb72aec6fb6cb0cbdd7d73c7bc60e01780392fdbc.png"
+    },
+    {
+      "address": "0xC80EE14c97Ac8242Be0EF500E4E4b1e9F9D94b9b",
+      "name": "Nokia Corporation Tokenized by Sailing",
+      "symbol": "NOKs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xc80ee14c97ac8242be0ef500e4e4b1e9f9d94b9b.png"
+    },
+    {
+      "address": "0xC94939302077Fb3610b47cA595e863E99d815EFe",
+      "name": "Oracle Corporation Tokenized by Sailing",
+      "symbol": "ORCLs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xc94939302077fb3610b47ca595e863e99d815efe.png"
+    },
+    {
+      "address": "0xCd287fD1eEDFF1405d063951Ec616f20192Ad6E5",
+      "name": "Meta Platforms Inc Tokenized by Sailing",
+      "symbol": "METAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xcd287fd1eedff1405d063951ec616f20192ad6e5.png"
+    },
+    {
+      "address": "0xDF9A2DD609334a9c4a5E7abD6c333e6C8a724875",
+      "name": "Invesco QQQ Trust Tokenized by Sailing",
+      "symbol": "QQQs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xdf9a2dd609334a9c4a5e7abd6c333e6c8a724875.png"
+    },
+    {
+      "address": "0xE5B50A524a608152A92724297f287fF544C71465",
+      "name": "The Walt Disney Company Tokenized by Sailing",
+      "symbol": "DISs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xe5b50a524a608152a92724297f287ff544c71465.png"
+    },
+    {
+      "address": "0xF3920C7B3b563CA93ff10035BE09136A3faBfBEC",
+      "name": "United States Gasoline Fund Tokenized by Sailing",
+      "symbol": "UGAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xf3920c7b3b563ca93ff10035be09136a3fabfbec.png"
+    },
+    {
+      "address": "0xF3DdE692E6ab603812c89A518951ABF27EB9e917",
+      "name": "CrowdStrike Holdings Inc Tokenized by Sailing",
+      "symbol": "CRWDs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xf3dde692e6ab603812c89a518951abf27eb9e917.png"
+    },
+    {
+      "address": "0xFd93AaD5C7B9adF695496887279272aED607AF43",
+      "name": "United States Oil Fund Tokenized by Sailing",
+      "symbol": "USOs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xfd93aad5c7b9adf695496887279272aed607af43.png"
+    },
+    {
+      "address": "0xaE688CcB9A106cD65eeBd9e85156466470B9549F",
+      "name": "DLocal Ltd Tokenized by Sailing",
+      "symbol": "DLOs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xae688ccb9a106cd65eebd9e85156466470b9549f.png"
+    },
+    {
+      "address": "0xab870265A5aA8F03Da0749aa02979B09A1176d79",
+      "name": "iShares Silver Trust Tokenized by Sailing",
+      "symbol": "SLVs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xab870265a5aa8f03da0749aa02979b09a1176d79.png"
+    },
+    {
+      "address": "0xac907CC9060B3DeC4fEb6B98f69174822413d8C9",
+      "name": "Airbnb Inc Tokenized by Sailing",
+      "symbol": "ABNBs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xac907cc9060b3dec4feb6b98f69174822413d8c9.png"
+    },
+    {
+      "address": "0xb6A222943Bbd717FEf61728461207ec0c6756A85",
+      "name": "Comcast Corporation Tokenized by Sailing",
+      "symbol": "CMCSAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xb6a222943bbd717fef61728461207ec0c6756a85.png"
+    },
+    {
+      "address": "0xb9B593fe5a20693403C412af247b3c06CA92ab53",
+      "name": "GameStop Corp Tokenized by Sailing",
+      "symbol": "GMEs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xb9b593fe5a20693403c412af247b3c06ca92ab53.png"
+    },
+    {
+      "address": "0xcd2167F460B9B4BAB8573974851778d96a81e70c",
+      "name": "Roku Inc Tokenized by Sailing",
+      "symbol": "ROKUs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xcd2167f460b9b4bab8573974851778d96a81e70c.png"
+    },
+    {
+      "address": "0xd6472c917a2fC5dFB1067eB5E0a1e007Bb5D0723",
+      "name": "Ginkgo Bioworks Inc Tokenized by Sailing",
+      "symbol": "DNAs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xd6472c917a2fc5dfb1067eb5e0a1e007bb5d0723.png"
+    },
+    {
+      "address": "0xdB5A8DA127B061b3f4244F1C34EaFfFff951E1Ce",
+      "name": "Apple Inc Tokenized by Sailing",
+      "symbol": "AAPLs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xdb5a8da127b061b3f4244f1c34eafffff951e1ce.png"
+    },
+    {
+      "address": "0xe21C4a8e6793B7f0aa22B647235EcDd01C92B8B5",
+      "name": "PIMCO Enhanced Short Maturity Active ETF Tokenized by Sailing",
+      "symbol": "MINTs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xe21c4a8e6793b7f0aa22b647235ecdd01c92b8b5.png"
+    },
+    {
+      "address": "0xeFAd1C9a4047A5c04bDdBF4aCA13ef64e30451b0",
+      "name": "Adobe Inc Tokenized by Sailing",
+      "symbol": "ADBEs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xefad1c9a4047a5c04bddbf4aca13ef64e30451b0.png"
+    },
+    {
+      "address": "0xf88D2aD6638AA4aa62D7f07396B06ead6cd03A70",
+      "name": "Cisco Systems Inc Tokenized by Sailing",
+      "symbol": "CSCOs",
+      "decimals": 18,
+      "chainId": 8822,
+      "logoURI": "https://cdn.oku.trade/logos/8822/0xf88d2ad6638aa4aa62d7f07396b06ead6cd03a70.png"
     }
   ]
 }
