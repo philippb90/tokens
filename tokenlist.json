@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-24T19:41:03.226Z",
+  "timestamp": "2025-03-27T14:34:50.527Z",
   "version": {
     "major": 33,
-    "minor": 184,
+    "minor": 185,
     "patch": 340
   },
   "tokens": [
@@ -1523,6 +1523,14 @@
       "decimals": 18,
       "chainId": 21000000,
       "logoURI": "https://cdn.oku.trade/logos/21000000/0x1b3757d5ee281eaf6a9c8e5d9b8488b4475aa955.png"
+    },
+    {
+      "address": "0x44f49ff0da2498bCb1D3Dc7C0f999578F67FD8C6",
+      "name": "Corn",
+      "symbol": "CORN",
+      "decimals": 18,
+      "chainId": 21000000,
+      "logoURI": "https://cdn.oku.trade/logos/21000000/0x44f49ff0da2498bcb1d3dc7c0f999578f67fd8c6.png"
     },
     {
       "address": "0x485BBC4F98c071C9BD74Ac255262E61F866f071a",
