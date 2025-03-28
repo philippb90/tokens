@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-03-27T14:34:50.527Z",
+  "timestamp": "2025-03-28T17:42:22.683Z",
   "version": {
     "major": 33,
-    "minor": 185,
+    "minor": 187,
     "patch": 340
   },
   "tokens": [
@@ -2149,6 +2149,14 @@
       "logoURI": "https://cdn.oku.trade/logos/43111/0x4200000000000000000000000000000000000006.png"
     },
     {
+      "address": "0x6A9A65B84843F5fD4aC9a0471C4fc11AFfFBce4a",
+      "name": "Lorenzo Wrapped Bitcoin",
+      "symbol": "enzoBTC",
+      "decimals": 8,
+      "chainId": 43111,
+      "logoURI": "https://cdn.oku.trade/logos/43111/0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a.png"
+    },
+    {
       "address": "0x6c851F501a3F24E29A8E39a29591cddf09369080",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
@@ -2171,6 +2179,14 @@
       "decimals": 18,
       "chainId": 43111,
       "logoURI": "https://cdn.oku.trade/logos/43111/0x7a06c4aef988e7925575c50261297a946ad204a8.png"
+    },
+    {
+      "address": "0x8154Aaf094c2f03Ad550B6890E1d4264B5DdaD9A",
+      "name": "iBTC",
+      "symbol": "iBTC",
+      "decimals": 18,
+      "chainId": 43111,
+      "logoURI": "https://cdn.oku.trade/logos/43111/0x8154aaf094c2f03ad550b6890e1d4264b5ddad9a.png"
     },
     {
       "address": "0xAA40c0c7644e0b2B224509571e10ad20d9C4ef28",
