@@ -1,9 +1,9 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-04-02T19:56:03.755Z",
+  "timestamp": "2025-04-03T00:19:03.847Z",
   "version": {
     "major": 33,
-    "minor": 189,
+    "minor": 191,
     "patch": 341
   },
   "tokens": [
@@ -1869,6 +1869,14 @@
       "logoURI": "https://cdn.oku.trade/logos/30/0x4e630f665a5e911eba14b4e850375613d6a05c06.png"
     },
     {
+      "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+      "name": "Solv BTC",
+      "symbol": "SolvBTC",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0x541fd749419ca806a8bc7da8ac23d346f2df8b77.png"
+    },
+    {
       "address": "0x5b0c93ED5e3Ab653CC5d1dD850c4bF8C0A1260c5",
       "name": "MicroStrategy Inc Tokenized by Sailing",
       "symbol": "MSTRs",
@@ -1923,6 +1931,14 @@
       "decimals": 18,
       "chainId": 30,
       "logoURI": "https://cdn.oku.trade/logos/30/0xb314095f4efd9cb0e800fc72a85878d9e3a4109b.png"
+    },
+    {
+      "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+      "name": "SolvBTC Babylon",
+      "symbol": "SolvBTC.BBN",
+      "decimals": 18,
+      "chainId": 30,
+      "logoURI": "https://cdn.oku.trade/logos/30/0xcc0966d8418d412c599a6421b760a847eb169a8c.png"
     },
     {
       "address": "0xDC661977F72973601621247B1F3c5E9eA624Fd38",
