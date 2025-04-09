@@ -1,10 +1,10 @@
 {
   "name": "Oku Token List",
-  "timestamp": "2025-04-03T00:19:03.847Z",
+  "timestamp": "2025-04-09T04:07:47.733Z",
   "version": {
     "major": 33,
     "minor": 191,
-    "patch": 341
+    "patch": 342
   },
   "tokens": [
     {
@@ -1934,8 +1934,8 @@
     },
     {
       "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "xSolvBTC",
+      "symbol": "xSolvBTC",
       "decimals": 18,
       "chainId": 30,
       "logoURI": "https://cdn.oku.trade/logos/30/0xcc0966d8418d412c599a6421b760a847eb169a8c.png"
